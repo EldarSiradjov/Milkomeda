@@ -1,0 +1,60 @@
+{
+  "game_components": [
+    {
+      "type": "homeworld",
+      "title": "Homeworld",
+      "corner_values": [3, 3, 3, 3],
+      "artwork_description": "Orange sky, tall dark spires, figure in foreground"
+    },
+    {
+      "type": "homeworld",
+      "title": "Homeworld",
+      "corner_values": [3, 3, 3, 3],
+      "artwork_description": "Green circuit-like landscape, glowing lines"
+    },
+    {
+      "type": "homeworld",
+      "title": "Homeworld",
+      "corner_values": [3, 3, 3, 3],
+      "artwork_description": "Red glowing corridor, figure on vehicle"
+    },
+    {
+      "type": "homeworld",
+      "title": "Homeworld",
+      "corner_values": [3, 3, 3, 3],
+      "artwork_description": "Blue misty landscape, tall dark structures, celestial bodies"
+    },
+    {
+      "type": "player_identifier",
+      "identifier": "1",
+      "artwork_description": "Triangle structure emerging from misty water"
+    },
+    {
+      "type": "player_identifier",
+      "identifier": "2",
+      "artwork_description": "Triangle structure emerging from misty water"
+    },
+    {
+      "type": "player_identifier",
+      "identifier": "3",
+      "artwork_description": "Triangle structure emerging from misty water"
+    },
+    {
+      "type": "special_marker",
+      "identifier": "Master",
+      "artwork_description": "Triangle structure emerging from misty water"
+    }
+  ],
+  "card_backs": [
+    {
+      "type": "homeworld_back",
+      "title": "Homeworld",
+      "artwork_description": "Planet in starry space"
+    },
+    {
+      "type": "order_back",
+      "title": "Order",
+      "artwork_description": "Triangle structure emerging from misty water"
+    }
+  ]
+}

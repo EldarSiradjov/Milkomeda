@@ -1,0 +1,254 @@
+{
+  "directives": [
+    {
+      "title": "Energy Driven Offensive",
+      "flavor_text": "The day has come to use our power to strike!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Economic Energy Assignment",
+      "flavor_text": "Our power, our production our people!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Scientific Supply Management",
+      "flavor_text": "Energy grows with knowledge!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Green", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Defense Allocation Plan",
+      "flavor_text": "Buy them and kill with them!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Scientific Fiscal Symbiosis",
+      "flavor_text": "The universe! A book worth every coin!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Green", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Analytical Strike Initiative",
+      "flavor_text": "Know their weak points! Know your glory!",
+      "dots": [
+        { "color": "Red", "position": "top_left" },
+        { "color": "Green", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Strategic Energy Redistribution",
+      "flavor_text": "Empower our homes! Empower our fleets!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Blue", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Diversified Credit Allocation",
+      "flavor_text": "Wealth is the answer! It always was!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Dynamic Strategic Deployment",
+      "flavor_text": "Adapt and conquer! Victory awaits!",
+      "dots": [
+        { "color": "Red", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Integrated Scientific Expansion",
+      "flavor_text": "Merging minds will make us see!",
+      "dots": [
+        { "color": "Green", "position": "top_left" },
+        { "color": "Green", "position": "top_right" },
+        { "color": "White", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Grand Symbiosis Initiative",
+      "flavor_text": "...all shall be heard. For all are important!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "Yellow", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Relentless Energy Expansion",
+      "flavor_text": "To THAT corner of the galaxy!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Blue", "position": "top_right" },
+        { "color": "Blue", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Triumphant Credit Enrichment",
+      "flavor_text": "Unbreakable wealth, unbreakable empire!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "Yellow", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Unyielding Strategic Ascendancy",
+      "flavor_text": "Ultimate victory! DEPLOY!",
+      "dots": [
+        { "color": "Red", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Red", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Pioneering Research Enhancement",
+      "flavor_text": "Venture into the unknown and KNOW IT!",
+      "dots": [
+        { "color": "Green", "position": "top_left" },
+        { "color": "Green", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Pact of Power and Discovery",
+      "flavor_text": "Strength and knowledge gives the world!",
+      "dots": [
+        { "color": "Red", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Synthesis of Wealth and Wisdom",
+      "flavor_text": "Shape our path with coin and scroll!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Alliance of Energy and Wealth",
+      "flavor_text": "Drive expansion for prosperity!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "Yellow", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Union of Energy and Power",
+      "flavor_text": "Dominance by strength and energy!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Red", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Fusion of Energy and Knowledge",
+      "flavor_text": "Marry our power to our brilliance!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Blue", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Coalition of Wealth and Might",
+      "flavor_text": "Gather and fortify for dominance!",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Red", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Energy Independent Methods",
+      "flavor_text": "Everything neatly in its palace, except...",
+      "dots": [
+        { "color": "Yellow", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Financial Isolation Initiative",
+      "flavor_text": "We have it for now, lets pay everything else!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Red", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Peace and Prosperity Phase",
+      "flavor_text": "War is never planned?! Lets stick to the plan!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "Green", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    },
+    {
+      "title": "Fast Implementation Protocol",
+      "flavor_text": "Study in times of plenty. Act at all other times!",
+      "dots": [
+        { "color": "Blue", "position": "top_left" },
+        { "color": "Yellow", "position": "top_right" },
+        { "color": "Red", "position": "bottom_left" },
+        { "color": "White", "position": "bottom_right" }
+      ]
+    }
+  ]
+}

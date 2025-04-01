@@ -1,0 +1,196 @@
+{
+  "objective_cards": [
+    {
+      "title": "Golden Khanate",
+      "condition_text": "I have controlled sectors",
+      "condition_values": [6, 8, 10],
+      "victory_points": [6, 8, 10]
+    },
+    {
+      "title": "Warith Hadid",
+      "condition_text": "I have structures on the map",
+      "condition_values": [3, 4, 5],
+      "victory_points": [6, 8, 10]
+    },
+    {
+      "title": "Grande Armée",
+      "condition_text": "I have ships on the map",
+      "condition_values": [10, 12, 14],
+      "victory_points": [6, 8, 10]
+    },
+    {
+      "title": "Exemplares discipuli",
+      "condition_text": "I have technologies",
+      "condition_values": [4, 5, 6],
+      "victory_points": [4, 6, 8]
+    },
+    {
+      "title": "Princeps Civicus",
+      "condition_text": "This turn I won a vote I started",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Prodigy of War",
+      "condition_text": "I won a battle this turn",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [3, 4, 5, 6]
+    },
+    {
+      "title": "Wits of Clausewitz",
+      "condition_text": "I have strategic resources",
+      "condition_values": [5, 10, 15, 20],
+      "victory_points": [3, 5, 7, 9]
+    },
+    {
+      "title": "Wingspan like Greenspan",
+      "condition_text": "I have industrial resources",
+      "condition_values": [5, 10, 15, 20],
+      "victory_points": [3, 5, 7, 9]
+    },
+    {
+      "title": "Manhattan Project",
+      "condition_text": "I have scientific resources",
+      "condition_values": [5, 10, 15, 20],
+      "victory_points": [3, 5, 7, 9]
+    },
+    {
+      "title": "Dysons free men",
+      "condition_text": "I have logistic resources",
+      "condition_values": [5, 10, 15, 20],
+      "victory_points": [3, 5, 7, 9]
+    },
+    {
+      "title": "Worldscorcher",
+      "condition_text": "This turn I destroyed a structure",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [5, 5, 5, 5]
+    },
+    {
+      "title": "Hannibals Dream",
+      "condition_text": "This turn my ships jumped to attack",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [5, 5, 5, 5]
+    },
+    {
+      "title": "Altan Orda",
+      "condition_text": "I control sector types",
+      "condition_values": [4, 4, 6, 8],
+      "victory_points": [2, 4, 6, 10]
+    },
+    {
+      "title": "Celestial Nile",
+      "condition_text": "I control sectors of 1 type",
+      "condition_values": [4, 5, 6],
+      "victory_points": [4, 7, 10]
+    },
+    {
+      "title": "Signor Robinson",
+      "condition_text": "I control a sector at a distance to my homeworld",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Ares Reborn",
+      "condition_text": "I control warzones",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Pachamama's Blessing",
+      "condition_text": "I control biospheres",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Varuna's Gaze",
+      "condition_text": "I control observatories",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Freyja's Hoard",
+      "condition_text": "I control extraction sectors",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Crossroads of Hecate",
+      "condition_text": "I control transit sectors",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Disciple of Kali",
+      "condition_text": "I control hazard sectors",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Tiamat's Chosen",
+      "condition_text": "I control unstable sectors",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Curator of Morrigan",
+      "condition_text": "I control wasteland sectors",
+      "condition_values": [2, 3, 4, 5],
+      "victory_points": [2, 4, 6, 8]
+    },
+    {
+      "title": "Loki the Usurper",
+      "condition_text": "This turn I used an opponents structure",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [5, 5, 6, 8]
+    },
+    {
+      "title": "Thor's Victor",
+      "condition_text": "This turn I won a battle in a warzone sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Apollo's Pathfinder",
+      "condition_text": "This turn I explored 2 Systems",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [2, 2, 2, 2]
+    },
+    {
+      "title": "Green Man's Conqueror",
+      "condition_text": "This turn I won a battle in a biosphere sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Harvester of Hades",
+      "condition_text": "This turn I won a battle in an extraction sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Amaterasu's Sentinel",
+      "condition_text": "This turn I won a battle in an observatory sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Inari's Wayfarer",
+      "condition_text": "This turn I won a battle in a transit sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Raijin's Champion",
+      "condition_text": "This turn I won a battle in an unstable sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    },
+    {
+      "title": "Shield of Fujin",
+      "condition_text": "This turn I won a battle in a hazard sector",
+      "condition_values": [1, 1, 1, 1],
+      "victory_points": [4, 4, 4, 4]
+    }
+  ]
+}

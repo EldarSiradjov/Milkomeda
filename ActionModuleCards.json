@@ -1,0 +1,124 @@
+{
+  "action_modules": [
+    {
+      "cost_amount": 1,
+      "cost_resource": "Logistic",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Scientific",
+      "effect_action": "Explore"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Strategic",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Economic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Economic",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Strategic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Scientific",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 1,
+      "cost_resource": "Logistic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Logistic",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Scientific",
+      "effect_action": "Explore"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Strategic",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Economic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Economic",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Strategic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Scientific",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 2,
+      "cost_resource": "Logistic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Logistic",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Scientific",
+      "effect_action": "Explore"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Strategic",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Economic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Economic",
+      "effect_action": "Move"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Strategic",
+      "effect_action": "Attack"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Scientific",
+      "effect_action": "Build"
+    },
+    {
+      "cost_amount": 3,
+      "cost_resource": "Logistic",
+      "effect_action": "Explore" 
+    }
+  ]
+}

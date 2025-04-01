@@ -1,0 +1,436 @@
+{
+  "cards": [
+    {
+      "name": "Quasarian Rift",
+      "values": { "blue": 1, "orange": 0, "red": 0, "green": 0 },
+      "keywords": ["observatory", "transit", "unstable"],
+      "back_value": 1
+    },
+    {
+      "name": "Nebulon Prime",
+      "values": { "blue": 0, "orange": 0, "red": 0, "green": 0 },
+      "keywords": ["observatory", "hazard", "wasteland"],
+      "back_value": 1
+    },
+    {
+      "name": "Mineron V",
+      "values": { "blue": 0, "orange": 0, "red": 0, "green": 2 },
+      "keywords": ["observatory", "biosphere"],
+      "back_value": 1
+    },
+    {
+      "name": "Orion's Halo",
+      "values": { "blue": 0, "orange": 0, "red": 1, "green": 1 },
+      "keywords": ["observatory", "warzone"],
+      "back_value": 1
+    },
+    {
+      "name": "Actara",
+      "values": { "blue": 0, "orange": 0, "red": 1, "green": 0 },
+      "keywords": ["conflict", "wasteland"],
+      "back_value": 1
+    },
+    {
+      "name": "Stellar Nexus",
+      "values": { "blue": 0, "orange": 0, "red": 0, "green": 1 },
+      "keywords": ["unstable", "transit"],
+      "back_value": 1
+    },
+    {
+      "name": "Vorlax Abyss",
+      "values": { "blue": 0, "orange": 1, "red": 0, "green": 0 },
+      "keywords": ["extraction", "biosphere"],
+      "back_value": 2
+    },
+    {
+      "name": "Vortexium",
+      "values": { "blue": 0, "orange": 1, "red": 0, "green": 1 },
+      "keywords": ["extraction", "observatory"],
+      "back_value": 1
+    },
+    {
+      "name": "Solara Spire",
+      "values": { "blue": 1, "orange": 0, "red": 0, "green": 1 },
+      "keywords": ["observatory", "transit"],
+      "back_value": 2
+    },
+    {
+      "name": "Cosma Void",
+      "values": { "blue": 0, "orange": 0, "red": 2, "green": 0 },
+      "keywords": ["transit", "hazard"],
+      "back_value": 2
+    },
+    {
+      "name": "Asterions Fall",
+      "values": { "blue": 0, "orange": 1, "red": 1, "green": 0 },
+      "keywords": ["transit", "biosphere"],
+      "back_value": 2
+    },
+    {
+      "name": "Expanse of Kahul",
+      "values": { "blue": 1, "orange": 0, "red": 1, "green": 0 },
+      "keywords": ["unstable", "observatory"],
+      "back_value": 2
+    },
+    {
+      "name": "Tradepost C31",
+      "values": { "blue": 0, "orange": 2, "red": 0, "green": 0 },
+      "keywords": ["biosphere", "extraction"],
+      "back_value": 2
+    },
+    {
+      "name": "Terra Pax",
+      "values": { "blue": 1, "orange": 1, "red": 0, "green": 0 },
+      "keywords": ["biosphere", "hazard"],
+      "back_value": 2
+    },
+    {
+      "name": "Celestial Mare",
+      "values": { "blue": 2, "orange": 0, "red": 0, "green": 0 },
+      "keywords": ["hazard", "transit"],
+      "back_value": 3
+    },
+    {
+      "name": "Tara's Depths",
+      "values": { "blue": 0, "orange": 0, "red": 0, "green": 3 },
+      "keywords": ["observatory", "transit"],
+      "back_value": 2
+    },
+    {
+      "name": "Shadowfall",
+      "values": { "blue": 0, "orange": 0, "red": 1, "green": 2 },
+      "keywords": ["warzone"],
+      "back_value": 3
+    },
+    {
+      "name": "Obscura Nebula",
+      "values": { "blue": 0, "orange": 1, "red": 0, "green": 2 },
+      "keywords": ["hazard"],
+      "back_value": 3
+    },
+    {
+      "name": "Philomenas Cradle",
+      "values": { "blue": 1, "orange": 0, "red": 0, "green": 2 },
+      "keywords": ["extraction"],
+      "back_value": 3
+    },
+    {
+      "name": "Darkmoon Hollow",
+      "values": { "blue": 0, "orange": 0, "red": 2, "green": 1 },
+      "keywords": ["unstable"],
+      "back_value": 3
+    },
+    {
+      "name": "Xenon Delta",
+      "values": { "blue": 0, "orange": 1, "red": 1, "green": 1 },
+      "keywords": ["extraction"],
+      "back_value": 3
+    },
+    {
+      "name": "Umbral Reach",
+      "values": { "blue": 1, "orange": 0, "red": 1, "green": 1 },
+      "keywords": ["biosphere"],
+      "back_value": 3
+    },
+    {
+      "name": "Fields of Valxi",
+      "values": { "blue": 0, "orange": 2, "red": 0, "green": 1 },
+      "keywords": ["extraction"],
+      "back_value": 3
+    },
+    {
+      "name": "Teneri III",
+      "values": { "blue": 1, "orange": 1, "red": 0, "green": 1 },
+      "keywords": ["observatory"],
+      "back_value": 3
+    },
+    {
+      "name": "Morosian Plain",
+      "values": { "blue": 2, "orange": 0, "red": 0, "green": 1 },
+      "keywords": ["biosphere"],
+      "back_value": 3
+    },
+    {
+      "name": "Aurora Drift",
+      "values": { "blue": 0, "orange": 0, "red": 3, "green": 0 },
+      "keywords": ["observatory"],
+      "back_value": 3
+    },
+    {
+      "name": "Starforge Mist",
+      "values": { "blue": 0, "orange": 1, "red": 2, "green": 0 },
+      "keywords": ["extraction"],
+      "back_value": 3
+    },
+    {
+      "name": "Zir Al Dur",
+      "values": { "blue": 1, "orange": 0, "red": 2, "green": 0 },
+      "keywords": ["unstable"],
+      "back_value": 3
+    },
+    {
+      "name": "Nebara Peaks",
+      "values": { "blue": 0, "orange": 2, "red": 1, "green": 0 },
+      "keywords": ["warzone"],
+      "back_value": 3
+    },
+    {
+      "name": "Longa Nox",
+      "values": { "blue": 1, "orange": 1, "red": 1, "green": 0 },
+      "keywords": ["transit"],
+      "back_value": 3
+    },
+    {
+      "name": "Sable Highlands",
+      "values": { "blue": 2, "orange": 0, "red": 1, "green": 0 },
+      "keywords": ["extraction"],
+      "back_value": 3
+    },
+    {
+      "name": "Blackstar Reach",
+      "values": { "blue": 0, "orange": 3, "red": 0, "green": 0 },
+      "keywords": ["observatory"],
+      "back_value": 3
+    },
+    {
+      "name": "Trav G'Arth Edge",
+      "values": { "blue": 1, "orange": 2, "red": 0, "green": 0 },
+      "keywords": ["biosphere"],
+      "back_value": 3
+    },
+    {
+      "name": "Nilbian Crest",
+      "values": { "blue": 2, "orange": 1, "red": 0, "green": 0 },
+      "keywords": ["transit"],
+      "back_value": 3
+    },
+    {
+      "name": "Duskforge",
+      "values": { "blue": 3, "orange": 0, "red": 0, "green": 0 },
+      "keywords": ["unstable"],
+      "back_value": 4
+    },
+    {
+      "name": "Novatron",
+      "values": { "blue": 0, "orange": 0, "red": 0, "green": 4 },
+      "keywords": ["observatory"],
+      "back_value": 3
+    },
+    {
+      "name": "Hell's Reach",
+      "values": { "blue": 0, "orange": 0, "red": 1, "green": 3 },
+      "keywords": ["wasteland"],
+      "back_value": 4
+    },
+    {
+      "name": "Vorathars End",
+      "values": { "blue": 0, "orange": 1, "red": 0, "green": 3 },
+      "keywords": ["hazard"],
+      "back_value": 4
+    },
+    {
+      "name": "Expanse of Khalid",
+      "values": { "blue": 1, "orange": 0, "red": 0, "green": 3 },
+      "keywords": ["wasteland"],
+      "back_value": 4
+    },
+    {
+      "name": "Nebular Cavern",
+      "values": { "blue": 0, "orange": 0, "red": 2, "green": 2 },
+      "keywords": ["warzone"],
+      "back_value": 4
+    },
+    {
+      "name": "Shanza's Dream",
+      "values": { "blue": 0, "orange": 1, "red": 1, "green": 2 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Starfield of Exigo",
+      "values": { "blue": 1, "orange": 0, "red": 1, "green": 2 },
+      "keywords": ["wasteland"],
+      "back_value": 4
+    },
+    {
+      "name": "Konari 4",
+      "values": { "blue": 0, "orange": 2, "red": 0, "green": 2 },
+      "keywords": ["hazard"],
+      "back_value": 4
+    },
+    {
+      "name": "Cradle of Astara",
+      "values": { "blue": 1, "orange": 1, "red": 0, "green": 2 },
+      "keywords": ["unstable"],
+      "back_value": 4
+    },
+    {
+      "name": "Virillion",
+      "values": { "blue": 0, "orange": 0, "red": 3, "green": 1 },
+      "keywords": ["biosphere"],
+      "back_value": 4
+    },
+    {
+      "name": "Urbs Bellum",
+      "values": { "blue": 0, "orange": 1, "red": 2, "green": 1 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Ultima Statio",
+      "values": { "blue": 1, "orange": 0, "red": 2, "green": 1 },
+      "keywords": ["warzone"],
+      "back_value": 4
+    },
+    {
+      "name": "Skias Akri",
+      "values": { "blue": 0, "orange": 2, "red": 1, "green": 1 },
+      "keywords": ["unstable"],
+      "back_value": 4
+    },
+    {
+      "name": "Parvum Aequilibrium",
+      "values": { "blue": 1, "orange": 1, "red": 1, "green": 1 },
+      "keywords": ["observatory"],
+      "back_value": 4
+    },
+    {
+      "name": "Pólis Khrēmatos",
+      "values": { "blue": 0, "orange": 3, "red": 0, "green": 1 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Farahs Rise",
+      "values": { "blue": 1, "orange": 2, "red": 0, "green": 1 },
+      "keywords": ["biosphere"],
+      "back_value": 4
+    },
+    {
+      "name": "Kirikos Den",
+      "values": { "blue": 0, "orange": 0, "red": 4, "green": 0 },
+      "keywords": ["wasteland"],
+      "back_value": 4
+    },
+    {
+      "name": "Minotaurs Den",
+      "values": { "blue": 0, "orange": 1, "red": 3, "green": 0 },
+      "keywords": ["unstable"],
+      "back_value": 4
+    },
+    {
+      "name": "Terra Nox",
+      "values": { "blue": 1, "orange": 0, "red": 3, "green": 0 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Styl Coron",
+      "values": { "blue": 0, "orange": 2, "red": 2, "green": 0 },
+      "keywords": ["warzone"],
+      "back_value": 4
+    },
+    {
+      "name": "Clandestino",
+      "values": { "blue": 1, "orange": 1, "red": 2, "green": 0 },
+      "keywords": ["hazard"],
+      "back_value": 4
+    },
+    {
+      "name": "Virtus Regis",
+      "values": { "blue": 0, "orange": 3, "red": 1, "green": 0 },
+      "keywords": ["warzone"],
+      "back_value": 4
+    },
+    {
+      "name": "Aspirants Retreat",
+      "values": { "blue": 1, "orange": 2, "red": 1, "green": 0 },
+      "keywords": ["observatory"],
+      "back_value": 4
+    },
+    {
+      "name": "Thesaurus Regis",
+      "values": { "blue": 0, "orange": 4, "red": 0, "green": 0 },
+      "keywords": ["biosphere"],
+      "back_value": 4
+    },
+    {
+      "name": "Mille Dextrae",
+      "values": { "blue": 1, "orange": 3, "red": 0, "green": 0 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Keras Wake",
+      "values": { "blue": 2, "orange": 0, "red": 0, "green": 2 },
+      "keywords": ["hazard"],
+      "back_value": 4
+    },
+    {
+      "name": "Aquillion",
+      "values": { "blue": 2, "orange": 0, "red": 1, "green": 1 },
+      "keywords": ["unstable"],
+      "back_value": 4
+    },
+    {
+      "name": "Metis' Womb",
+      "values": { "blue": 2, "orange": 0, "red": 2, "green": 0 },
+      "keywords": ["wasteland"],
+      "back_value": 4
+    },
+    {
+      "name": "Zumurrud",
+      "values": { "blue": 2, "orange": 1, "red": 0, "green": 1 },
+      "keywords": ["transit"],
+      "back_value": 4
+    },
+    {
+      "name": "Arakor",
+      "values": { "blue": 2, "orange": 1, "red": 1, "green": 0 },
+      "keywords": ["hazard"],
+      "back_value": 4
+    },
+    {
+      "name": "Feral Reach",
+      "values": { "blue": 2, "orange": 2, "red": 0, "green": 0 },
+      "keywords": ["extraction"],
+      "back_value": 4
+    },
+    {
+      "name": "Hebi no Ken",
+      "values": { "blue": 3, "orange": 0, "red": 0, "green": 1 },
+      "keywords": ["warzone"],
+      "back_value": 4
+    },
+    {
+      "name": "Saru no Tanken",
+      "values": { "blue": 3, "orange": 0, "red": 1, "green": 0 },
+      "keywords": ["biosphere"],
+      "back_value": 4
+    },
+    {
+      "name": "Lor Kahan",
+      "values": { "blue": 3, "orange": 1, "red": 0, "green": 0 },
+      "keywords": ["observatory"],
+      "back_value": 4
+    },
+    {
+      "name": "Hanumans Door",
+      "values": { "blue": 4, "orange": 0, "red": 0, "green": 0 },
+      "keywords": ["transit"],
+      "back_value": 4
+    },
+    {
+      "name": "Gebli VII",
+      "values": { "blue": 1, "orange": 1, "red": 1, "green": 2 },
+      "keywords": ["unstable"],
+      "back_value": 5
+    },
+    {
+      "name": "Serpents Eye",
+      "values": { "blue": 1, "orange": 1, "red": 2, "green": 1 },
+      "keywords": ["wasteland"],
+      "back_value": 5
+    }
+  ]
+}
