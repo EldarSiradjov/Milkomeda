@@ -59,7 +59,7 @@ Be the player with the most Victory Points (VP) at the end of the game. The game
 *   **Fleet Roster Indicators:** 5 tokens per player, likely used on the Fleet Roster card during secret configuration.
 *   **Storage Card:** A player board for tracking the four resource types (Logistic, Economic, Strategic, Scientific) using tracker tokens.
 *   **Resource Trackers:** Tokens used on the Storage Card to mark current resource levels.
-*   **Objective Cards:** Cards representing public goals providing VP when achieved (visual reference). *(Replaces original Galactic Senate Objectives/Rewards).* \[Placeholder: Define Objective setup and claiming mechanics].
+*   **Objective Cards:** Cards representing public goals providing VP when achieved. 5 are drawn at the start of the game and placed in the Public Objectives Row. Players track claims on these cards. \[Placeholder: Define claiming mechanics].
 *   **Combat Routine Cards:** \[Placeholder: Role TBD] Cards possibly used for advanced combat actions or tied to specific technologies/abilities (visual reference). *Current combat system does not explicitly use these. Decision needed: Keep or Cut?*
 *   **Directive Cards:** \[Placeholder: Role TBD] Cards possibly representing ongoing laws, strategies, or special abilities, potentially affecting resource management or player actions (visual reference shows resource icons). *Current rules do not explicitly use these; may replace original Galactic Senate Laws/Sanctions. Decision needed: Define function (dots, etc.) or Cut?*
 *   **Battle Mat:** A shared game tile used for resolving combat. Includes:
@@ -74,7 +74,7 @@ Be the player with the most Victory Points (VP) at the end of the game. The game
 **4. SETUP**
 
 1.  **Prepare Play Area:** Designate a central area for the space grid. Place the Battle Mat nearby.
-2.  **Prepare Decks:** Shuffle the Sector Card deck (ensure consistency with `SectorCards.json` - check card count) and place it face down. Prepare the Order Card deck (Master card + numbered cards 1 to N for N players) and place it nearby. Shuffle Objective Cards \[and Directive Cards if used] and place them as indicated \[Placeholder: Define Objective/Directive setup].
+2.  **Prepare Decks & Objectives:** Shuffle the Sector Card deck (...) and place it face down. Prepare the Order Card deck (...). Shuffle the **Objective Card deck**. Draw **5** Objective Cards and place them face-up in a central area visible to all players to form the **Public Objectives Row**. Return the rest to the box. \[Placeholder: Define Directive setup if used].
 3.  **Each Player Chooses Civilization:** Select or randomly assign a Civilization (see Civilizations section).
 4.  **Gather Player Components:** Each player takes:
     *   Their chosen Civilization's unique Homeworld Card.
@@ -245,7 +245,22 @@ Fleets are represented by tokens, configured into specific ship types during com
         *   *Countered By:* Shield Cruiser, Drone Carrier
         *   *Description:* Agile craft dodge beams and evade slow artillery to counter-attack, but struggle against heavy shields and drone swarms.
 
-**11. STRUCTURES**
+**11. OBJECTIVE CARDS**
+
+Five Objective Cards are drawn during setup and placed face-up to form the **Public Objectives Row**, visible to all players. These provide opportunities to score Victory Points during the game by meeting specific conditions.
+
+*   **11.1. Claiming Objectives**
+    *   **Eligibility:** During your turn, if you meet the condition(s) listed on a Public Objective Card for a specific VP value slot that has *not* yet been claimed by any player, you may claim that objective tier.
+    *   **Timing:** You must declare your claim **immediately** after the game state reflects that the condition is met (e.g., immediately after concluding a combat, completing a build action, finishing movement, or during the income phase if the condition relates to resource totals or sector control counts).
+    *   **Limit:** A player may claim a maximum of **one** Objective VP slot per turn, even if they meet the conditions for multiple claims simultaneously.
+    *   **Procedure:**
+        1.  Clearly declare which Objective Card and specific VP value slot you are claiming.
+        2.  Place one of your **Claim Markers** on that specific VP slot on the Objective Card.
+    *   **Exclusivity:** Once a specific VP slot on an Objective Card is marked with a Claim Marker, that slot cannot be claimed again by any player for the rest of the game. Other VP slots on the same card may still be available.
+    *   **"This Turn" Objectives:** Objectives with conditions like "This turn I won a battle..." or "This turn I destroyed a structure..." must be claimed *immediately* following the specific event occurring during your turn. If you proceed with another action or end your turn without claiming, the opportunity to claim based on that specific instance is lost. You may potentially claim it on a future turn if you meet the condition again.
+    *   **Game End Trigger:** If a player places their Claim Marker on the very last available, unclaimed VP slot across all 5 Public Objective Cards, the game ends immediately (see Section 13: End of Game).
+
+**12. STRUCTURES**
 
 Structures provide ongoing benefits and VP. See Build Action for costs and placement rules.
 
@@ -255,38 +270,30 @@ Structures provide ongoing benefits and VP. See Build Action for costs and place
 *   **M-Brain:** Improves income generation and allows action repetition, worth 3 VP.
 *   **(Interaction with Combat):** A structure allows a defender to retain control of a sector even if all defending fleets are destroyed in mutual annihilation combat in that sector. \[Placeholder: Do structures provide any defensive bonuses during combat? e.g., absorb 1 hit? - Suggestion: No direct combat bonus to keep things cleaner, their survival benefit is indirect].
 
-**12. END OF GAME**
+**13. END OF GAME**
 
 The game ends **immediately** when one of the following conditions is met:
 
 1.  **Grid Completion:** The last Sector Card is drawn, placed, and successfully paid for during an Explore action. The exploring player gains 5 bonus VP.
-2.  **Objective Completion:** A player successfully claims the final available Victory Point slot on any public Objective Card during their turn. *(The action that allowed the claim is completed, then the game ends immediately before proceeding further).*
+2.  **Objective Completion:** A player successfully claims the final available Victory Point slot on any public Objective Card during their turn (by placing their Claim Marker on it, as per Section 11.1).
 
-Proceed immediately to Scoring.
+Proceed immediately to Scoring (Section 14).
 
-**13. SCORING**
+**14. SCORING**
 
 Players calculate their final Victory Point totals:
 
-1.  **Grid Completion Bonus:** +5 VP for the player who placed the last Sector card.
-2.  **Controlled Sectors:** +1 VP for each sector controlled at game end (must have at least one fleet present, or be the defender with a structure in case of mutual destruction).
-3.  **Sectors with Structure Tokens:** Additional VP for sectors containing your structures at game end:
-    *   Outpost: +2 VP per token.
-    *   M-Brain: +3 VP per token.
-    *   Hypergate: +2 VP per token.
-    *   Starlance: +2 VP per token.
-4.  **Fleet Tokens:** +1 VP for every 3 of your Fleet Tokens remaining on the game grid (in any sector). *(Adjusted from 1:1 for balance - needs testing)*.
-5.  **Orange (Economic) Resources:** +1 VP for every 1 **Orange** resource you have remaining on your Storage Card.
-6.  **Special Goals (Civilization Specific):**
-    *   *Stellar Architects:* +3 VP for each Megastructure (Starlance, Hypergate, M-Brain) you have on the grid at game end.
-    *   *Quantum Sentinels:* +1 VP for every combat round won \[Placeholder: Define "combat round won" - Suggestion: Inflicting more casualties than you took in a single round? Or perhaps +3VP per *entire combat* won where you were the sole survivor? Simpler might be: +1 VP per enemy fleet destroyed during combats you initiated?].
-    *   *Void Navigators:* +1 VP for each explored sector on the grid at game end that is *not* adjacent to your Homeworld.
-    *   *Helix Cultivators:* +5 VP if you have 15 or more **Green** (Scientific) resources on your Storage Card at the end of the game. *(Changed from Strategic Red to Green Scientific based on theme suggestion, value adjusted)*.
-7.  **Objective Cards:** Award VP indicated on any achieved public \[or private?] Objective Cards. \[Placeholder: Detail Objective Card mechanics if used - how are they claimed? Public/Private? Number available?].
+1.  **Grid Completion Bonus:** +5 VP for the player who placed the last Sector card (if game ended via Grid Completion).
+2.  **Controlled Sectors:** +1 VP for each sector controlled at game end...
+3.  **Sectors with Structure Tokens:** Additional VP for sectors containing your structures...
+4.  **Fleet Tokens:** +1 VP for every 3 of your Fleet Tokens remaining...
+5.  **Orange (Economic) Resources:** +1 VP for every 1 Orange resource remaining...
+6.  **Special Goals (Civilization Specific):** ... \[Ensure these placeholders are filled eventually]
+7.  **Objective Cards:** Gain VP equal to the value of **each Objective Card slot you successfully claimed** with your Claim Markers during the game.
 
-The player with the most total VP wins. Ties are friendly \[Placeholder: Define tiebreaker rule if needed - Suggestion: Most remaining non-Orange resources (Blue+Red+Green), then most fleets].
+The player with the most total VP wins. Ties are friendly \[Placeholder: Define tiebreaker rule - Suggestion: Most remaining non-Orange resources (Blue+Red+Green), then most fleets].
 
-**14. GLOSSARY**
+**15. GLOSSARY**
 
 *(Based on Milkomeda PDF Glossary + our terms)*
 
@@ -327,18 +334,3 @@ The player with the most total VP wins. Ties are friendly \[Placeholder: Define 
 *   **Strategic (Resource): Red** resource, used for Structure Attack via Starlance, gained by Quantum Sentinels when attacking.
 *   **Structure Tokens:** Physical tokens representing Outposts, Starlances, Hypergates, M-Brains.
 *   **Targeting Markers:** Conceptual markers placed secretly on the Fleet Roster to indicate which opponent ship types are being targeted by hits.
-
-
----
-
-**15. APPENDIX A: HISTORICAL PROTOCOL FILE 147-XC (LORE)**
-
-*(Include the text from MilkomedaLore.md here)*
-
----
-
-**16. APPENDIX B: CIVILIZATION DETAILS (LORE)**
-
-*(Include relevant lore snippets for each Civilization here, connecting to their abilities)*
-
----
