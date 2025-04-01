@@ -15,7 +15,7 @@
       "flavor_text": "Our power, our production our people!",
       "dots": [
         { "color": "Blue", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
+        { "color": "Orange", "position": "top_right" },
         { "color": "White", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
@@ -34,7 +34,7 @@
       "title": "Defense Allocation Plan",
       "flavor_text": "Buy them and kill with them!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
+        { "color": "Orange", "position": "top_left" },
         { "color": "Red", "position": "top_right" },
         { "color": "White", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
@@ -44,7 +44,7 @@
       "title": "Scientific Fiscal Symbiosis",
       "flavor_text": "The universe! A book worth every coin!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
+        { "color": "Orange", "position": "top_left" },
         { "color": "Green", "position": "top_right" },
         { "color": "White", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
@@ -74,8 +74,8 @@
       "title": "Diversified Credit Allocation",
       "flavor_text": "Wealth is the answer! It always was!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
+        { "color": "Orange", "position": "top_left" },
+        { "color": "Orange", "position": "top_right" },
         { "color": "White", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
@@ -107,7 +107,7 @@
         { "color": "Blue", "position": "top_left" },
         { "color": "Red", "position": "top_right" },
         { "color": "Green", "position": "bottom_left" },
-        { "color": "Yellow", "position": "bottom_right" }
+        { "color": "Orange", "position": "bottom_right" }
       ]
     },
     {
@@ -124,9 +124,9 @@
       "title": "Triumphant Credit Enrichment",
       "flavor_text": "Unbreakable wealth, unbreakable empire!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
-        { "color": "Yellow", "position": "bottom_left" },
+        { "color": "Orange", "position": "top_left" },
+        { "color": "Orange", "position": "top_right" },
+        { "color": "Orange", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
     },
@@ -164,8 +164,8 @@
       "title": "Synthesis of Wealth and Wisdom",
       "flavor_text": "Shape our path with coin and scroll!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
+        { "color": "Orange", "position": "top_left" },
+        { "color": "Orange", "position": "top_right" },
         { "color": "Green", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
@@ -175,8 +175,8 @@
       "flavor_text": "Drive expansion for prosperity!",
       "dots": [
         { "color": "Blue", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
-        { "color": "Yellow", "position": "bottom_left" },
+        { "color": "Orange", "position": "top_right" },
+        { "color": "Orange", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
     },
@@ -204,7 +204,7 @@
       "title": "Coalition of Wealth and Might",
       "flavor_text": "Gather and fortify for dominance!",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
+        { "color": "Orange", "position": "top_left" },
         { "color": "Red", "position": "top_right" },
         { "color": "Red", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
@@ -214,7 +214,7 @@
       "title": "Energy Independent Methods",
       "flavor_text": "Everything neatly in its palace, except...",
       "dots": [
-        { "color": "Yellow", "position": "top_left" },
+        { "color": "Orange", "position": "top_left" },
         { "color": "Red", "position": "top_right" },
         { "color": "Green", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
@@ -235,7 +235,7 @@
       "flavor_text": "War is never planned?! Lets stick to the plan!",
       "dots": [
         { "color": "Blue", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
+        { "color": "Orange", "position": "top_right" },
         { "color": "Green", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
@@ -245,7 +245,7 @@
       "flavor_text": "Study in times of plenty. Act at all other times!",
       "dots": [
         { "color": "Blue", "position": "top_left" },
-        { "color": "Yellow", "position": "top_right" },
+        { "color": "Orange", "position": "top_right" },
         { "color": "Red", "position": "bottom_left" },
         { "color": "White", "position": "bottom_right" }
       ]
