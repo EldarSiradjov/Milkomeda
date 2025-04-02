@@ -24,7 +24,7 @@
       "condition_values": [4, 5, 6],
       "victory_points": [4, 6, 8]
     },
-    // Removed Princeps Civicus (Undefined voting mechanic)
+
     {
       "title": "Prodigy of War",
       "condition_text": "I won a battle this turn",
@@ -133,7 +133,6 @@
       "condition_values": [2, 3, 4, 5],
       "victory_points": [2, 4, 6, 8]
     },
-    // Removed Loki the Usurper (Undefined use opponent structure mechanic)
     {
       "title": "Thor's Victor",
       "condition_text": "This turn I won a battle in a warzone sector",
