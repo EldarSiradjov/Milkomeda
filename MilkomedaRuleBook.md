@@ -1,6 +1,6 @@
-# MILKOMEDA - Rulebook Draft
+# MILKOMEDA - Rulebook
 
-## Table of Contents (Conceptual)
+## Table of Contents
 
 1.  Introduction & Lore
 2.  Game Objective
@@ -9,12 +9,12 @@
 5.  Civilizations
 6.  Game Play Overview
 7.  Turn Structure
-8.  Core Actions (Explore, Move, Build, Attack)
-9.  Combat Rules ("Vector Command")
+8.  Core Actions
+9.  Combat Rules
     *   Combat Initiation
-    *   Combat Sequence (Using Secret Roster Allocation + Marking)
+    *   Combat Sequence
     *   The Battle Mat
-10. Fleets & Ship Types (RPS Details)
+10. Fleets & Ship Types
 11. Objective Cards & Claiming
 12. Structures
 13. Directive & Action Module Rules
