@@ -21,16 +21,13 @@
 14. End of Game
 15. Scoring
 16. Glossary
-17. Appendix A: Historical Protocol File 147-XC (Lore)
-18. Appendix B: Civilization Details (Lore)
+
 
 ---
 
-## 1. INTRODUCTION & LORE
+## 1. INTRODUCTION
 
 **Milkomeda** is a strategic board game where players aim to dominate a grid of space sectors, deploying fleets and utilizing resources to engage in tactical battles and achieve dominance before the galaxy is fully explored. Victory is determined by amassing the most Victory Points (VP) through sector control, fleet management, economic strength, structure placement, and achieving specific goals.
-
-*(See Appendix A for the full text of Historical Protocol File 147-XC detailing the lore background of the Aetharan Ascendancy and their exodus into The Caelum Void).*
 
 ## 2. GAME OBJECTIVE
 
