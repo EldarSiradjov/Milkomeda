@@ -238,20 +238,21 @@ Resolves conflicts when fleets from different players occupy the same sector aft
     * The total value set across all 5 indicators must equal the total number of successes in your Hit Pool. You can only allocate hits to tracks corresponding to enemy ship types reachable via valid Attack Vectors from your ships currently on the Battle Mat.
 7. **Simultaneous Reveal of Rosters (Damage Allocation):**
     * All players remove their screens and reveal their Fleet Roster Cards, showing their damage allocation decisions for the round.
-8. **Sequentially MARK Targets (Open Allocation):**
+8. **Sequentially MOVE Targeted Ships to Damaged Area:**
     * Determine allocation order: The **Attacker** resolves fully first, then any other players involved resolve fully in **player turn order** relative to each other.
     * **Active Player's Turn (e.g., Player A):**
         * Look at your revealed Roster showing your hit allocations (e.g., '2' hits allocated to Track #2: Shield Cruisers).
-        * For each hit allocated to a specific track (enemy type): Choose one enemy fleet token of that type currently on the Battle Mat. **Place a "Marked" token** on that enemy fleet token (or tap/turn it sideways).
-        * *Target Choice:* If multiple opponents have ships of the target type, you choose which opponent's ship to Mark for each allocated hit. A ship can receive multiple Marks.
-        * Repeat this marking process for all hits allocated on your Roster. Mark targets based on the current board state (no ships are removed yet).
-    * **Next Player's Turn:** Once the active player has finished marking targets for all their allocated hits, the next player in the resolution order repeats the marking process based on *their* revealed roster.
-    * Continue until all participating players have marked targets corresponding to their revealed allocations.
-9. **Resolve Casualties (Simultaneous Removal):**
-    * **After** all players have finished Step 8 (Marking).
+        * For each hit allocated to a specific track (enemy type): Choose one enemy fleet token of that type currently **on the central Ship Type Node**. **Physically move that chosen fleet token** from the Node into the corresponding outer **Damaged Area** surrounding that Node.
+        * *Target Choice:* If multiple opponents have ships of the target type on the Node, you choose which opponent's ship to move for each allocated hit.
+        * *Effect of Being Moved:* Once a ship token is moved to the Damaged Area during this step, it remains there and is effectively marked for destruction. It cannot be targeted again *by subsequent hit allocations within this Step 8*. Players must target ships remaining on the *central Nodes*.
+        * Repeat this moving process for all hits allocated on your Roster.
+    * **Next Player's Turn:** Once the active player has finished moving targeted ships for all their allocated hits, the next player in the resolution order repeats the moving process based on *their* revealed roster.
+    * Continue until all participating players have moved targeted ships corresponding to their revealed allocations.
+9. **Resolve Casualties (Simultaneous Removal from Damaged Areas):**
+    * **After** all players have finished Step 8 (Moving Targeted Ships).
     * Look at the Battle Mat.
-    * **Simultaneously remove ALL** fleet tokens that have **one or more "Marked" tokens** on them. Return removed tokens to their owners' supply.
-    * Remove all "Marked" tokens from the board.
+    * **Simultaneously remove ALL** fleet tokens that are currently located in **any of the 5 outer Damaged Areas**. Return removed tokens to their owners' supply.
+    * The central Ship Type Nodes now only contain the surviving ships, ready for the next combat round check (Step 10).
 10. **End of Combat Round Check:**
     * After resolving casualties, check the Battle Mat.
     * If fleets belonging to **more than one player** remain, a **New Combat Round** begins. Return to **Step 3 (Determine Dice Allocation)** based on the remaining fleets.
@@ -264,7 +265,8 @@ Resolves conflicts when fleets from different players occupy the same sector aft
 
 * **Node Representation:** 5 nodes for 5 Ship Types. Place configured fleet tokens here during combat.
 * **Arrows Indication:** Show which type counters which target type (defining valid Attack Vectors). Used for determining dice allocation (Step 3) and validating hit allocation choices (Step 6 & 8).
-* **Attack Vector Areas:** The arrows visually represent the paths attacks follow. Hit dice/tokens are placed onto these arrows during the Marking phase (Step 8).
+* **Attack Vector Areas:** The arrows visually represent the paths attacks follow.
+* **Damaged Areas:** 5 zones on the mat, one surrounding each Node. Targeted ships are moved here in Step 8 and removed from play from here in Step 9.
 
 ## 10. FLEETS & SHIP TYPES
 
@@ -363,6 +365,7 @@ Player with most VP wins. **Tiebreaker:** Most total remaining non-Orange resour
 * **Claim Marker:** Player token for claiming Objective VP slots.
 * **Combat:** Process triggered by Attack Action, uses "Vector Command". See Section 9.
 * **Controlled Sector:** Sector with most Fleets. **Tiebreaker:** If fleets are tied, the player who controlled the sector *before* the most recent Move/Attack action that caused the tie retains control (if involved in the tie); otherwise, it becomes uncontrolled. Exception: Defender with structure retains control on mutual destruction (See Section 9.A Step 11).
+* **Damaged Area:** A designated zone on the Battle Mat surrounding each Ship Type Node. During combat Step 8 (Move Targeted Ships), fleet tokens allocated hits against are moved from the Node into this area. In Step 9 (Resolve Casualties), all tokens within these areas are removed from play.
 * **Defender(s):** Player(s) with fleets in a sector when an opponent initiates combat via an Attack Action into that sector.
 * **Directive Card:** Card defining a spatial pattern condition. See Section 13.
 * **Dice Allocation:** Process (Step 3 of Combat) determining how many dice each player rolls based on their ships and valid attack vectors.
@@ -379,8 +382,8 @@ Player with most VP wins. **Tiebreaker:** Most total remaining non-Orange resour
 * **Intersection Point:** Point where four Sector Card corners meet. Used for checking Directive Pattern Matching.
 * **Logistic (Resource): Blue** resource.
 * **M-Brain:** Structure providing income bonus and allowing repeat actions.
-* **Marked Token / Marked Status:** A neutral token placed on a fleet token (or the fleet token is tapped/turned) during Step 8 of Combat (Mark Targets). Designates the fleet for removal in Step 9 (Resolve Casualties). Removed after casualties are resolved.
 * **Master of the Order Token:** Grants control over Turn Order/Directive refresh.
+* **Move Action:** Core action to move fleets without combat.
 * **Move Action:** Core action to move fleets without combat.
 * **Node:** Point on Battle Mat representing a Ship Type.
 * **Objective Cards:** Public goals for VP. *(Pending review)*.
