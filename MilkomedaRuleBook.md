@@ -154,7 +154,7 @@ Game proceeds in rounds. Each round:
             * Choose one of your Starlances. Pay 2 **Red** + 2 **Blue**.
             * Target adjacent sector with *any* structure. Remove token to owner's supply.
 
-## 9. COMBAT RULES (VECTOR COMMAND)
+## 9. COMBAT RULES
 
 Resolves when Attack Action moves fleets into sector with opponent(s). Uses Battle Mat & Fleet Roster.
 
@@ -166,10 +166,10 @@ Resolves when Attack Action moves fleets into sector with opponent(s). Uses Batt
 6. **Identify Hits:** Each die showing 5 or 6 is a "Hit". Collect your Hits.
 7. **Secret Hit Allocation:** Go behind screens again. Look at your Hits total. Secretly use Roster Indicators on Roster Card tracks: Assign your Hits to target specific *enemy ship types* you have valid Attack Vectors against (arrows from your ships pointing to theirs). Total value across indicators must equal your Hits total.
 8. **Reveal Allocation:** Simultaneously reveal Rosters showing hit assignments.
-9. **Resolve Hits (Sequentially):**
+9. **Resolve Hits:**
     * **Order:** Attacker resolves all their hits first, then Defenders resolve in player turn order.
     * **Active Player:** For each hit assigned on your Roster to an enemy type (e.g., 2 hits on "Shield Cruiser" track): Choose 1 enemy fleet token *of that type* currently **on its Node** on the Battle Mat. **Physically move** that token into the "Damaged Area" around that node. *You choose which opponent's ship if multiple.* Ships moved here cannot be targeted again *this step*. Repeat for all your hits.
-10. **Remove Casualties (Simultaneously):** After *all* players finish Step 9, **remove ALL** fleet tokens currently in **any Damaged Area** from the game (return to supply).
+10. **Remove Casualties:** After *all* players finish Step 9, **remove ALL** fleet tokens currently in **any Damaged Area** from the game (return to supply).
 11. **End Combat Round?** Check Battle Mat.
     * If >1 player still has fleets: Start new combat round at Step 4 (Determine Dice).
     * If <=1 player has fleets: **Combat Ends.**
@@ -244,7 +244,7 @@ Calculate final VP:
 * **Battle Mat:** Area for combat resolution.
 * **Claim Marker:** Token to claim Objective VP slots.
 * **Combat:** Process for resolving fleet battles (Section 9).
-* **Control (Sector):** Player with most Fleets. Tie = Previous controller keeps control (if involved); else uncontrolled. Exception: Defender w/ structure retains on mutual destruction.
+* **Control (Sector):** Player with most Fleets+Structures. Tie = Previous controller keeps control; else uncontrolled. Exception: Defender w/ structure retains on mutual destruction.
 * **Damaged Area:** Zone on Battle Mat where hit ships are moved (Step 9), then removed (Step 10).
 * **Directive Card (Directive 1/2/3):** Shows pattern for bonus action eligibility.
 * **Fleet Roster Card / Indicators:** Used behind screen for secret Combat Configuration (Step 2) & Hit Allocation (Step 7).
@@ -255,7 +255,6 @@ Calculate final VP:
 * **Pattern Matching (Directives):** At an Intersection Point adjacent to a sector you control: Check the 4 resource colors on the corners meeting there against the Directive's 4 dots (TL, TR, BL, BR). Blue/Orange/Red/Green dots must match the corner resource color. **White dot matches ANY color.** If all 4 positions match, the Directive is fulfilled.
 * **Protocol Card (Protocol 1/2/3):** Action Module card granting bonus action.
 * **Resources:** Blue (Logistic), Orange (Economic), Red (Strategic), Green (Scientific).
-* **RPS:** Rock-Paper-Scissors system for Ship Types (Section 10).
 * **Storage Card:** Player board for tracking resources.
 
 ---
