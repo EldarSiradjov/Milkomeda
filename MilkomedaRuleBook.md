@@ -1,4 +1,5 @@
-# MILKOMEDA - Rulebook (Revised Draft)
+
+# MILKOMEDA - Rulebook
 
 ## 1. INTRODUCTION
 
@@ -50,7 +51,7 @@ The player with the most VP at the end wins.
     * **Middle Row (Face-Up Directives):** Draw 1 card from each Directive deck above it and place face-up below the deck (D1 below D1 deck, etc.).
     * **Bottom Row (Face-Up Protocols):** Draw 1 card from **Protocol 3**, **Protocol 2**, **Protocol 1** decks and place face-up below the corresponding Directive (P3 below D1, P2 below D2, P1 below D3).
     * **Lowest Row (Draw Decks):** Place the shuffled **Protocol 3**, **Protocol 2**, **Protocol 1** decks face-down below their corresponding face-up Protocol card.
-    *(See visual layout in previous response if needed)*. This creates 3 pairs: (D1/P3), (D2/P2), (D3/P1).
+    * *(This creates 3 pairs: (Directive 1 / Protocol 3), (Directive 2 / Protocol 2), (Directive 3 / Protocol 1)).*
 5. **Choose Civilizations:** Each player picks or gets a random Civilization card.
 6. **Player Components:** Each player takes their Civilization card, Homeworld, Fleet Tokens, Structure Tokens, Storage Card + Trackers, Action Display + Marker, Player Screen, Fleet Roster + Indicators, Claim Markers, and Dice.
 7. **Place Homeworlds:** Players place their Homeworld card in a starting position around the grid area (e.g., corners).
@@ -68,7 +69,7 @@ The player with the most VP at the end wins.
 
 * **Stellar Architects:** Megastructures (Starlance, Hypergate, M-Brain) cost 1 less **Orange**.
 * **Quantum Sentinels:** Gain 1 **Red** when you initiate an Attack Action.
-* **Void Navigators:** Your base Move Action range is 2 sectors instead of 1. *(Ability updated)*
+* **Void Navigators:** Your base Move Action range is 2 sectors instead of 1.
 * **Helix Cultivators:** Gain 1 **Green** immediately when you claim an Objective VP slot.
 
 ## 6. GAME PLAY OVERVIEW
@@ -93,17 +94,16 @@ Game proceeds in rounds. Each round:
     1. **Gain Income:**
         * +3 of each resource (Blue, Orange, Red, Green) from Homeworld.
         * Gain resources shown on each *other* Sector Card you control.
-        * If controlling an M-Brain: Gain +1 resource *of your choice* for each controlled sector adjacent to the M-Brain's sector.
-        * Update Storage Card.
+        * Update Storage Card. *(Structure income is handled separately, see Section 12)*
     2. **Choose Main Core Action:** Select **one** (Explore, Move, Build, Attack). You **cannot** choose the same main action you took last turn, unless you control an M-Brain. Place Action Marker on choice.
-    3. **Pay Main Action Cost:** Pay action's resource costs. Adjust trackers.
+    3. **Pay Main Action Cost:** Pay action's resource costs (if any). Adjust trackers.
     4. **Perform Main Core Action:** Resolve the action fully.
     5. **(Optional) Check Directives & Activate Protocol:** After resolving the Main Action:
         * **Check Intersections:** Look at **Intersection Points** (where 4 sector corners meet) adjacent to **sectors you control**.
         * **Find Match:** See if the resource colors on the 4 corners match a face-up **Directive Card** (see **Pattern Matching** in Glossary).
         * **Activate (Optional):** If matched, you *may* activate the paired **Protocol Card**:
             * Check: Protocol action *must be different* from your Main Action this turn.
-            * Pay Protocol Cost (listed on card).
+            * Pay Protocol Cost (listed on card, reduced by M-Brain if applicable).
             * Pay normal cost for the Protocol's action (e.g., Green for Explore, Blue/Orange for Build, etc.).
             * Perform Protocol's action fully.
             * **Limit:** Max 1 Protocol activation per turn.
@@ -119,40 +119,30 @@ Game proceeds in rounds. Each round:
     2. Draw 2 (or more if boosted) Sector Cards. Reveal.
     3. Place revealed card(s) adjacent to sectors you control (or chain from there). **Declare orientation** (rotation) for each.
     4. Pay total Exploration Cost of *all placed cards* in **Green**. If you can't afford all, choose which to keep/pay for, shuffle others back.
-    5. *(Hypergate Boost: Placing from Hypergate sector allows placing up to 2 spaces away through explored sectors).*
-    6. *Game End Trigger:* If deck empties, game ends after placing/paying. Triggering player gets +5 VP.
+    5. *Game End Trigger:* If deck empties, game ends after placing/paying. Triggering player gets +5 VP.
 
 * **B. MOVE**
     1. Choose up to 2 sectors you control. Move any number of fleets from there.
     2. Base Range: 1 sector (*Void Navigator base range: 2*).
     3. (Optional) Spend **Blue**: +1 range per Blue spent (applies to all moves this action).
-    4. *(Hypergate Boost: Movement originating from a Hypergate sector gains +1 range).*
-    5. Move into/through enemy sectors freely. Does NOT trigger combat.
-    6. Reassess control of destination sector(s) after movement (most fleets wins ties, see Glossary: Control).
+    4. Move into/through enemy sectors freely. Does NOT trigger combat.
+    5. Reassess control of destination sector(s) after movement (most fleets wins ties, see Glossary: Control).
+    6. *(Hypergate interaction: See Section 12).*
 
 * **C. BUILD**
-    1. Choose up to 2 Build options below (any combo). Pay combined **Blue** + **Orange** costs.
+    1. Choose up to **one** Build option below. Pay combined **Blue** + **Orange** costs as applicable.
     2. **Build Options:**
-        * **Build Fleets:** Pay 1 **Orange** per fleet. Place up to 2 Fleets in Homeworld. *(Outpost Boost: For each owned Outpost, may build +1 Fleet (paying cost) in that Outpost's sector).*
-        * **Build Structure:** Pay structure cost (see table below). Place 1 structure token in a controlled sector *without* your structure of same type (except Outposts - max 2 total). Limit 1 Starlance, 1 Hypergate, 1 M-Brain per player. Benefits start next turn.
-
-        | Structure | Blue Cost | Orange Cost | Benefit                                                            | VP   |
-        | :-------- | :-------- | :---------- | :----------------------------------------------------------------- | :--- |
-        | Outpost   | 1         | 3           | Build +1 fleet option in sector.                                   | 2    |
-        | Starlance | 1         | 4           | Enables Attack Structure option.                                   | 2    |
-        | Hypergate | 2         | 6           | Explore range +2 placement. Move range +1.                         | 2    |
-        | M-Brain   | 4         | 7           | +1 Income (choice) per adjacent controlled sector. Allows repeats. | 3    |
+        * **Build Fleets:** Pay 1 **Orange** per fleet (potentially reduced by Outpost, see Section 12). Place up to 2 Fleets in your Homeworld sector, or in an Outpost sector as specified by Outpost rules.
+        * **Build Structure:** Choose a Structure type you are eligible to build (see limits in Section 12). Pay its **Blue** and **Orange** cost (listed in Section 12). Place the Structure token in a controlled sector that doesn't already have your structure of the same type (exception: Outposts). See Section 12 for full details on Structures.
 
 * **D. ATTACK**
-    1. Choose up to 2 Attack options:
+    1. Choose **one** Attack option:
         * **Attack Fleets:** Target adjacent sector with opponent fleets.
             * Choose 1 or 2 origin sectors you control.
             * Pay 1 **Blue** per border crossed from each origin to reach target (min 1 Blue total).
             * Move any number of fleets from origin(s) into target. **Initiate Combat** (Section 9).
-            * *(Hypergate Attack: Can attack any sector reachable via explored path from Hypergate. Pay Blue cost = path length).*
-        * **Attack Structure:** Requires owning a Starlance.
-            * Choose one of your Starlances. Pay 2 **Red** + 2 **Blue**.
-            * Target adjacent sector with *any* structure. Remove token to owner's supply.
+            * *(Hypergate interaction: See Section 12).*
+        * **Target Structure (Requires Starlance):** Perform the special **Target Structure** action detailed under the Starlance entry in Section 12. This is your *entire* Attack Action for the turn.
 
 ## 9. COMBAT RULES
 
@@ -173,7 +163,7 @@ Resolves when Attack Action moves fleets into sector with opponent(s). Uses Batt
 11. **End Combat Round?** Check Battle Mat.
     * If >1 player still has fleets: Start new combat round at Step 4 (Determine Dice).
     * If <=1 player has fleets: **Combat Ends.**
-12. **Post-Combat Control:** Winning player (last one with fleets) controls the sector. If mutual destruction, sector is uncontrolled (unless Defender had a structure, then they keep control).
+12. **Post-Combat Control:** Winning player (last one with fleets) controls the sector. If mutual destruction, sector is uncontrolled (unless Defender had a structure, then they keep control - see Section 12).
 
 ## 10. FLEETS & SHIP TYPES (RPS System)
 
@@ -195,20 +185,30 @@ Five public cards offer VP. *(Note: Specific conditions on cards may be complex;
 
 ## 12. STRUCTURES
 
-Placed via Build Action. Provide VP and benefits starting next turn.
+Structures are unique installations built via the **Build Action** (Section 8.C) that provide ongoing benefits and Victory Points.
 
-* **Outpost:** Allows building +1 fleet in its sector. (2 VP)
-* **Starlance:** Enables "Attack Structure" option. (2 VP)
-* **Hypergate:** Boosts Explore placement range (+2), Move range (+1). (2 VP)
-* **M-Brain:** +1 income (choice) per adjacent controlled sector. Allows repeating main action. (3 VP)
-* *(Combat Relevance: See Section 9, Step 12)*
+**General Rules:**
+
+* **Placement:** Must be placed in a sector you **control**.
+* **Uniqueness:** A sector cannot contain more than one structure token *of the same type* from the same player (Exception: see Outpost). You cannot build in a sector already containing an opponent's structure (though you might destroy theirs first!).
+* **Player Limits:** Each player may have a maximum of: 2 Outposts, 1 Starlance, 1 Hypergate, 1 M-Brain built on the map at any time.
+* **Combat Relevance:** If combat ends in mutual destruction, the sector becomes uncontrolled, UNLESS the original Defender had *any* structure present in the sector before combat began. In that specific case, the Defender retains control.
+
+**Structure List:**
+
+| Structure | Blue Cost | Orange Cost | VP | Max per Player | Effect                                                                                                                                                            |
+| :-------- | :-------- | :---------- | :- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Outpost** | 1         | 3           | 2  | 2              | When performing the Build Action to build Fleets **in the sector containing this Outpost**, reduce the Orange cost per fleet built *there* by 1 (to min 0).        |
+| **Starlance** | 1         | 4           | 2  | 1              | Enables the **Target Structure** action: Once per turn, as your *entire* Attack Action, pay **3 Red** resources to remove one enemy Structure token from an adjacent sector. |
+| **Hypergate** | 2         | 6           | 2  | 1              | During your **Move Action**, treat sectors containing your Hypergates as adjacent. Moving between two Hypergate sectors costs 1 base move distance.                 |
+| **M-Brain** | 4         | 7           | 3  | 1              | Allows repeating the main Core Action on consecutive turns. Reduce Protocol activation cost by 1 (to min 0).                                                      |
 
 ## 13. DIRECTIVE & PROTOCOL RULES
 
 Three public pairs offer bonus actions.
 
 * **Tiers:** Directive (1 Easy, 2 Med, 3 Hard), Protocol (1 Cheap, 2 Mid, 3 Expensive).
-* **Display:** Pairs D1/P3, D2/P2, D3/P1 visible. Draw/discard from tiered decks above/below.
+* **Display:** Pairs (Directive 1 / Protocol 3), (Directive 2 / Protocol 2), (Directive 3 / Protocol 1) visible. Draw/discard from tiered decks above/below.
 * **Activation:** See Turn Structure (Phase 2, Step 5). Requires **Pattern Matching** (see Glossary) at intersection adjacent to your controlled sector. Bonus Protocol action must differ from Main Action. Pay Protocol cost + Action cost. Limit 1 per turn.
 * **Master Influence:** Master refreshes one card or pair each round (Phase 1, Step 2).
 
@@ -244,7 +244,7 @@ Calculate final VP:
 * **Battle Mat:** Area for combat resolution.
 * **Claim Marker:** Token to claim Objective VP slots.
 * **Combat:** Process for resolving fleet battles (Section 9).
-* **Control (Sector):** Player with most Fleets+Structures. Tie = Previous controller keeps control; else uncontrolled. Exception: Defender w/ structure retains on mutual destruction.
+* **Control (Sector):** Player with most Fleets. Tie = Previous controller keeps control (if involved); else uncontrolled. Exception: Defender w/ structure retains on mutual destruction (See Section 12).
 * **Damaged Area:** Zone on Battle Mat where hit ships are moved (Step 9), then removed (Step 10).
 * **Directive Card (Directive 1/2/3):** Shows pattern for bonus action eligibility.
 * **Fleet Roster Card / Indicators:** Used behind screen for secret Combat Configuration (Step 2) & Hit Allocation (Step 7).
@@ -252,9 +252,7 @@ Calculate final VP:
 * **Master of the Order:** Player controlling start-of-round decisions (Section 7, Phase 1).
 * **Node (Battle Mat):** Spot representing one Ship Type.
 * **Orientation (Sector Card):** Rotation chosen when placing card, determines which resource faces each direction.
-* **Pattern Matching (Directives):** At an Intersection Point adjacent to a sector you control: Check the 4 resource colors on the corners meeting there against the Directive's 4 dots (TL, TR, BL, BR). Blue/Orange/Red/Green dots must match the corner resource color. **White dot matches ANY color.** If all 4 positions match, the Directive is fulfilled.
+* **Pattern Matching (Directives):** At an Intersection Point adjacent to a sector you control: Check the 4 resource colors on the corners meeting there against the Directive's 4 dots (TL, TR, BL, BR positions). Blue/Orange/Red/Green dots must match the corner resource color. **White dot matches ANY color.** If all 4 positions match based on these criteria, the Directive is fulfilled for that intersection.
 * **Protocol Card (Protocol 1/2/3):** Action Module card granting bonus action.
 * **Resources:** Blue (Logistic), Orange (Economic), Red (Strategic), Green (Scientific).
 * **Storage Card:** Player board for tracking resources.
-
----
