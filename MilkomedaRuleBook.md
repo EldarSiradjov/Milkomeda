@@ -1,339 +1,223 @@
-# MILKOMEDA - Rulebook
-
-## Table of Contents
-
-1. Introduction
-2. Game Objective
-3. Components
-4. Setup
-5. Civilizations
-6. Game Play Overview
-7. Turn Structure
-8. Core Actions
-9. Combat Rules
-10. Fleets & Ship Types
-11. Objective Cards & Claiming
-12. Structures
-13. Directive & Action Module Rules
-14. End of Game
-15. Scoring
-16. Glossary
-
----
+# MILKOMEDA - Rulebook (Revised Draft)
 
 ## 1. INTRODUCTION
 
-**Milkomeda** is a strategic board game where players aim to dominate a grid of space sectors, deploying fleets and utilizing resources to engage in tactical battles and achieve dominance before the galaxy is fully explored. Victory is determined by amassing the most Victory Points (VP) through sector control, fleet management, economic strength, structure placement, and achieving specific goals.
+Welcome to Milkomeda, a strategy game set in a newly merged galaxy! You lead one of the Awakened human factions, competing for resources, territory, and dominance. Explore the galaxy, build fleets and structures, engage in tactical combat, and achieve objectives guided by the mysterious Luminary Warden. Be cunning, be bold, and shape the future!
 
 ## 2. GAME OBJECTIVE
 
-Be the player with the most Victory Points (VP) at the end of the game. The game ends when **either** the last Sector Card is explored and placed onto the grid, **or** when the last available Victory Point slot on any public Objective Card is claimed by a player.
+Become the most dominant faction by earning the most **Victory Points (VP)**. The game ends when either:
+
+* The last **Sector Card** is explored and placed.
+* The last available VP slot on any public **Objective Card** is claimed.
+
+The player with the most VP at the end wins.
 
 ## 3. COMPONENTS
 
-* **Order Cards:** A deck determining turn order, numbered 1-X for players and including a "Master" card (visual reference). *(Use cards numbered 1 to N, where N is the number of players).*
-* **Sector Cards:** Cards representing space sectors, forming the game grid. Each card features four resource/attribute values:
-  * Strategic (Red Icon/Value)
-  * Scientific (Green Icon/Value)
-  * Logistic (Blue Icon/Value)
-  * Economic (**Orange** Icon/Value)
-  * Keywords defining Sector Type (e.g., Biosphere, Warzone, Extraction, Observatory, Transit, Hazard, Unstable, Wasteland - relevant for Objectives).
-  * `back_value`: Exploration Cost paid in Scientific resources.
-  * *While not explicitly printed on the corners, assume a default assignment based on Standard Resource Order (TL=Blue, TR=Orange, BL=Red, BR=Green). The player chooses the card's rotation when placing it, affecting which resource faces outwards at each corner.*
-* **Structure Tokens:** Tokens representing buildable structures. Each player receives a set of 5:
-  * Outpost (x2)
-  * Starlance (x1)
-  * Hypergate (x1)
-  * M-Brain (x1)
-* **Fleet Tokens:** 25 tokens per player color, representing generic fleets on the main game board before combat configuration.
-* **Homeworld Cards:** Unique starting Sector cards, one per player/civilization (visual reference shows 4 distinct arts, provides base income).
-* **Action Display + Marker:** A player board or card showing the 4 core actions. A marker tracks the last action taken, preventing immediate repetition (unless M-Brain allows).
-* **Fleet Roster Card:** A private player card showing the 5 Ship Types (Beam Frigate, Shield Cruiser, Artillery Platform, Drone Carrier, Fighter Squadron) as tracks with values (e.g., 0-5). Used **behind a screen** for Secret Fleet Configuration and **later** for Secret Hit Allocation.
-* **Fleet Roster Indicators:** 5 tokens per player, used on the Fleet Roster card tracks (behind screen) to set values during secret configuration and secret hit allocation.
-* **Player Screens:** (Implied Need) One per player to hide Fleet Roster Card during secret steps.
-* **Storage Card:** A player board for tracking the four resource types (Logistic, Economic, Strategic, Scientific) using tracker tokens.
-* **Resource Trackers:** Tokens used on the Storage Card to mark current resource levels.
-* **Objective Cards:** Cards representing public goals providing VP when achieved. 5 are drawn at the start of the game and placed in the Public Objectives Row. Players track claims on these cards using Claim Markers. *(Note: Objective card details and specific conditions are currently under review and may be simplified/changed.)*
-* **Claim Markers:** Player-specific tokens used to mark claimed VP slots on Objective Cards.
-* **Directive Cards:** A deck of cards defining spatial pattern conditions players can meet at 2x2 Sector Card intersections. Sorted into three Tiers (D1 Easy, D2 Medium, D3 Hard) based on dot patterns during setup:
-  * D1: Exactly 2 colored dots (10 cards).
-  * D2: Exactly 3 colored dots, with at least one pair of same colors (10 cards).
-  * D3: Exactly 3 different colored dots OR 4 different colored dots (5 cards).
-  * *Each Tier has its own discard pile during play.*
-* **Action Module Cards:** A deck of cards providing bonus Core Actions when the paired Directive is fulfilled. Sorted into three Tiers (M1 Cheap, M2 Mid, M3 Expensive) based on `cost_amount` during setup:
-  * M1: `cost_amount` = 1 (8 cards).
-  * M2: `cost_amount` = 2 (8 cards).
-  * M3: `cost_amount` = 3 (8 cards).
-  * *Each Tier has its own discard pile during play.*
-* **Battle Mat:** A shared game tile used for resolving combat. Includes:
-  * 5 Nodes arranged in a pentagon, representing the 5 Ship Types.
-  * Connecting Arrows between nodes indicating the Rock-Paper-Scissors (RPS) relationships and serving as "Attack Vector Areas".
-* **"Marked" Tokens:** A supply of neutral tokens (or use convention of tapping/turning fleet tokens) used during combat resolution to mark ships targeted for destruction.
-* **Master of the Order Token:** Passed to the player who acted last in the previous round, granting control over Order Card distribution and Directive/Module adjustments.
-* **Dice:** Standard six-sided dice (d6) for combat resolution, **required in unique player colors.**
+* **Sector Cards:** Form the modular game board. Each shows:
+  * 4 Resource Values: Blue (Logistic), Orange (Economic), Red (Strategic), Green (Scientific).
+  * Sector Name & Keywords (e.g., Biosphere, Warzone - for Objectives).
+  * Exploration Cost: Paid in Green resources to place the card.
+* **Homeworld Cards:** Special starting Sector cards (1 per player).
+* **Fleet Tokens:** 25 per player color (used on the main board).
+* **Structure Tokens:** 5 per player (2 Outposts, 1 Starlance, 1 Hypergate, 1 M-Brain).
+* **Directive Cards (Decks: Directive 1, Directive 2, Directive 3):** Cards showing resource color patterns to match on the game board. Tiered by pattern difficulty.
+* **Protocol Cards (Decks: Protocol 1, Protocol 2, Protocol 3):** Action Modules granting bonus actions when paired Directives are met. Tiered by resource cost.
+* **Objective Cards:** Public goals granting VP when achieved.
+* **Order Cards:** Determine turn order (Cards 1-N for players + 1 "Master" card).
+* **Master of the Order Token:** Indicates the player managing the next round's start phase.
+* **Player Components (Per Player):**
+  * 1 Civilization Card (unique ability).
+  * 1 Storage Card (for tracking resources) & 4 Resource Trackers.
+  * 1 Action Display Card & 1 Action Marker (tracks last main action).
+  * 1 Player Screen (to hide roster).
+  * 1 Fleet Roster Card (for secret combat choices) & 5 Fleet Roster Indicators.
+  * Supply of Claim Markers (player color, for Objectives).
+  * Set of Dice (player color, d6).
+* **Shared Components:**
+  * Battle Mat (for resolving combat).
+  * Supply of "Marked" Tokens (or use tap/turn convention during combat).
 
 ## 4. SETUP
 
-1. **Prepare Play Area:** Designate a central area for the space grid. Place the Battle Mat nearby. Designate space for 4 **Directive/Module Positions**. Provide area for player screens.
-2. **Prepare Decks & Objectives:** Shuffle the Sector Card deck and place it face down. Prepare the Order Card deck. Shuffle the **Objective Card deck**. Draw **5** Objective Cards and place them face-up in a central area visible to all players to form the **Public Objectives Row**. Return the rest to the box. **Prepare empty discard piles for each Tiered Deck (D1, D2, D3, M1, M2, M3).**
-3. **Sort & Prepare Tiered Decks:**
-    * Separate Directive cards into three piles based on dot patterns: D1 (2 dots), D2 (3 dots, >=1 pair), D3 (3 different dots or 4 dots). Shuffle each pile individually and place face down as Tiered Directive Draw Decks.
-    * Separate Action Module cards into three piles based on `cost_amount`: M1 (cost 1), M2 (cost 2), M3 (cost 3). Shuffle each pile individually and place face down as Tiered Action Module Draw Decks.
-4. **Establish Initial Directive/Module Pairs:**
-    * **Position 1:** Draw the top card of Deck D1 face-up. Draw the top card of Deck M3 face-up below it. Place the remaining D1 and M3 Draw Decks face-down associated with this position.
-    * **Position 2:** Draw the top card of Deck D1 face-up. Draw the top card of Deck M2 face-up below it. Place the remaining D1 (shared with Pos 1) and M2 Draw Decks face-down associated with this position.
-    * **Position 3:** Draw the top card of Deck D2 face-up. Draw the top card of Deck M2 face-up below it. Place the remaining D2 and M2 (shared with Pos 2) Draw Decks face-down associated with this position.
-    * **Position 4:** Draw the top card of Deck D3 face-up. Draw the top card of Deck M1 face-up below it. Place the remaining D3 and M1 Draw Decks face-down associated with this position.
-5. **Each Player Chooses Civilization:** Select or randomly assign a Civilization (see Civilizations section).
-6. **Gather Player Components:** Each player takes:
-    * Their chosen Civilization's unique Homeworld Card.
-    * 25 Fleet Tokens of their color.
-    * 5 Structure Tokens (2 Outposts, 1 Starlance, 1 Hypergate, 1 M-Brain).
-    * 1 Fleet Roster Card and 5 Fleet Roster Indicators.
-    * 1 Player Screen.
-    * 1 Action Display Card and 1 Action Marker.
-    * 1 Storage Card and 4 Resource Trackers.
-    * A supply of their Claim Markers.
-    * A set of Dice in their player color.
-7. **Place Homeworld:** Players place their Homeworld card in a corner of the designated grid area.
-8. **Initial Fleets:** Place 3 Fleet Tokens on your Homeworld sector.
-9. **Initial Resources:** Place your **Blue, Orange, and Red** Resource Trackers on the value **3** on your Storage Card. Place your **Green** Resource Tracker on the value **5**.
-10. **Initial Action Marker:** Place the Action Marker on a designated "start" position off the main actions on the Action Display Card.
-11. **Reveal Adjacent Sectors:** Each player draws the top 2 cards from the Sector Deck. **Pay Exploration Cost:** Calculate the total `back_value` of these 2 cards. If you can afford the total cost, pay this amount in **Green (Scientific)** resources and place both cards face-up adjacent to your Homeworld sector in any orientation (declare orientation). If you cannot afford the total cost, choose one card you *can* afford, pay its `back_value` in Green, place it adjacent to your Homeworld (declare orientation), and shuffle the other card back into the Sector Deck. If you can afford both but choose to only place one, pay its cost, place it, and shuffle the unplaced card back into the Sector Deck. Shuffle any other unused drawn cards back into the Sector Deck.
-12. **Place Shared Components:** Place the "Marked" tokens supply near the Battle Mat.
+1. **Prepare Central Area:** Leave space for the Sector grid, Battle Mat, and the Directive/Protocol display.
+2. **Place Sector Deck:** Shuffle Sector Cards and place face-down.
+3. **Public Objectives:** Shuffle Objective Cards. Draw 5 face-up to form the **Public Objectives Row**. Return others to the box.
+4. **Directive/Protocol Display (3 Positions):**
+    * Create three columns.
+    * **Top Row (Draw Decks):** Place shuffled **Directive 1**, **Directive 2**, **Directive 3** decks face-down.
+    * **Middle Row (Face-Up Directives):** Draw 1 card from each Directive deck above it and place face-up below the deck (D1 below D1 deck, etc.).
+    * **Bottom Row (Face-Up Protocols):** Draw 1 card from **Protocol 3**, **Protocol 2**, **Protocol 1** decks and place face-up below the corresponding Directive (P3 below D1, P2 below D2, P1 below D3).
+    * **Lowest Row (Draw Decks):** Place the shuffled **Protocol 3**, **Protocol 2**, **Protocol 1** decks face-down below their corresponding face-up Protocol card.
+    *(See visual layout in previous response if needed)*. This creates 3 pairs: (D1/P3), (D2/P2), (D3/P1).
+5. **Choose Civilizations:** Each player picks or gets a random Civilization card.
+6. **Player Components:** Each player takes their Civilization card, Homeworld, Fleet Tokens, Structure Tokens, Storage Card + Trackers, Action Display + Marker, Player Screen, Fleet Roster + Indicators, Claim Markers, and Dice.
+7. **Place Homeworlds:** Players place their Homeworld card in a starting position around the grid area (e.g., corners).
+8. **Initial Fleets & Resources:**
+    * Place 3 Fleet Tokens on your Homeworld.
+    * Set Trackers: **Blue 3, Orange 3, Red 3, Green 5**.
+9. **Initial Action Marker:** Place off the side of the Action Display.
+10. **Reveal Adjacent Sectors:** Each player draws 2 Sector Cards. Check the total Exploration Cost.
+    * If affordable (pay total **Green** cost), place both face-up adjacent to your Homeworld. **Declare orientation** (rotation) for each.
+    * If total cost is too high, choose *one* you can afford, pay its **Green** cost, place it adjacent (declare orientation), and shuffle the other back into the deck.
+    * Shuffle any unplaced cards back into the Sector Deck.
+11. **Place Shared Components:** Put Battle Mat, Order Cards, Master Token, and Marked Tokens nearby.
 
-## 5. CIVILIZATIONS
+## 5. CIVILIZATIONS (Example Abilities - Confirm Final List)
 
-Each Civilization provides unique passive abilities or advantages. *(See Appendix B for detailed lore)*.
-
-* **Stellar Architects:** Megastructures (Starlance, Hypergate, M-Brain) cost 1 fewer **Orange** (Economic) resource to build.
-* **Quantum Sentinels:** Gain 1 **Red** (Strategic) resource each time you initiate an Attack action (either Main or via Module).
-* **Void Navigators:** **\[Ability TBD - Pindown removed]** *(Placeholder: Consider ability related to movement efficiency, Hypergates, or perhaps resilience in empty/hazardous space).*
-* **Helix Cultivators:** When claiming an Objective VP slot, gain 1 **Scientific (Green)** resource immediately.
+* **Stellar Architects:** Megastructures (Starlance, Hypergate, M-Brain) cost 1 less **Orange**.
+* **Quantum Sentinels:** Gain 1 **Red** when you initiate an Attack Action.
+* **Void Navigators:** Your base Move Action range is 2 sectors instead of 1. *(Ability updated)*
+* **Helix Cultivators:** Gain 1 **Green** immediately when you claim an Objective VP slot.
 
 ## 6. GAME PLAY OVERVIEW
 
-Players take turns performing actions to explore the galaxy (placing Sector cards), expand their presence (moving fleets), exploit resources (gaining income), build fleets and structures, and engage in combat to control sectors. Directive/Module pairs offer opportunities for bonus actions. The goal is to accumulate the most Victory Points.
+Players take turns exploring, expanding territory, gathering resources, building forces, and attacking opponents. Matching Directives grants bonus Protocol actions. Earn VP from objectives, control, structures, and resources.
 
 ## 7. TURN STRUCTURE
 
-The game is played in rounds. Each round consists of the following phases:
+Game proceeds in rounds. Each round:
 
-* **Phase 1: Determine Turn Order & Adjust Directives:**
-  * **First Round:** Shuffle the Order Card deck (Master + Player numbers). Each player draws one card and reveals it simultaneously. Lowest number goes first, then next lowest, etc. The player drawing the "Master" card goes last and holds it. *(No Directive adjustment in the very first round).*
-  * **Subsequent Rounds:**
-        1. The player who acted *last* in the previous round (holding the Master Card) takes the **Master of the Order Token**.
-        2. **Master Adjusts Directives/Modules (Tier-Locked):** The Master of Orders *must* choose **one** of the following actions, targeting a single **Directive/Module Position (1-4)**:
-            ***A) Refresh Pair:** Choose one Position. Discard both its face-up Directive and Action Module cards into their respective Tiered Discard Piles. Draw replacements from the top of that Position's assigned Draw Decks (see Draw Replacement rule below).
-            * **B) Refresh Directive:** Choose one Position. Discard its face-up Directive card into its Tiered Discard Pile. Draw a replacement from that Position's assigned Directive Draw Deck (see Draw Replacement rule below).
-            * **C) Refresh Module:** Choose one Position. Discard its face-up Action Module card into its Tiered Discard Pile. Draw a replacement from that Position's assigned Action Module Draw Deck (see Draw Replacement rule below).
-        3. **Draw Replacement Rule:** When drawing a replacement card, attempt to draw the top card from the corresponding Tiered Draw Deck. **If that Draw Deck is empty:** Shuffle that Tier's entire Discard Pile to form a new face-down Draw Deck for that Tier, then draw the top card. (If both Draw Deck and Discard Pile for that Tier are empty, the slot remains empty).
-        4. **Propose Turn Order:** The Master draws *two* Order Cards (numbered player cards) and reveals them. They then *propose* a distribution of all Order Cards (the two revealed + remaining face down player cards + the Master Card) among all players (including themselves).
-        5. **Bribing:** Players may openly discuss and bribe the Master of Orders (regarding *both* the Directive/Module refresh action *and* the Order Card distribution), immediately transferring resources shown on Storage Cards.
-        6. **Final Distribution:** The Master of Orders makes the final decision, distributes the cards. Players simultaneously reveal their received Order Card. Lowest number goes first, etc. The player receiving the Master Card goes last.
-* **Phase 2: Player Actions:** Starting with the first player and proceeding in turn order, each player performs their turn:
+* **Phase 1: Master of Order & Turn Order:**
+    1. **Assign Master:** Player who went last in previous round gets the **Master of the Order Token**. *(First round: Skip step 2. Shuffle Order Cards [Player #s + Master]. Draw 1 each. Lowest # goes first. Player with "Master" card goes last and keeps it.)*
+    2. **(Subsequent Rounds Only) Master Adjusts Display:** The Master *must* choose **one Position (1, 2, or 3)** and do **one** of these:
+        * **A) Refresh Pair:** Discard both face-up Directive and Protocol. Draw 1 new card from each corresponding draw deck (above/below) to replace them.
+        * **B) Refresh Directive:** Discard the face-up Directive. Draw 1 new card from its draw deck above.
+        * **C) Refresh Protocol:** Discard the face-up Protocol. Draw 1 new card from its draw deck below.
+        * *(If a Draw Deck is empty, shuffle its discard pile to make a new one. If both empty, slot stays empty.)*
+    3. **Propose Order:** Master draws *two* Order Cards (player numbers).
+    4. **Bribing:** Players may bribe the Master (using Resources) to influence the *display adjustment* (Step 2) AND/OR the *turn order* (Step 5). Bribes are paid immediately.
+    5. **Distribute Order:** Master distributes ALL Order Cards (their Master card, the revealed two, the remaining hidden player #s) among all players. Reveal simultaneously. Lowest # acts first, highest # next, player with Master card acts last.
+* **Phase 2: Player Actions:** In turn order, each player performs:
     1. **Gain Income:**
-        * Gain 3 of each resource type (Logistic, Economic, Strategic, Scientific) from your Homeworld.
-        * For each *other* Sector Card you control, gain resources matching the **`values`** shown on that card.
-        * If you control an M-Brain, for each sector you control that is adjacent to the M-Brain's sector, gain 1 additional resource **of your choice**.
+        * +3 of each resource (Blue, Orange, Red, Green) from Homeworld.
+        * Gain resources shown on each *other* Sector Card you control.
+        * If controlling an M-Brain: Gain +1 resource *of your choice* for each controlled sector adjacent to the M-Brain's sector.
         * Update Storage Card.
-    2. **Choose Main Core Action:** Select one of the 4 Core Actions (Explore, Move, Build, Attack) on your Action Display card *that is different from the action you took as your main action last turn* (unless M-Brain allows repeat). Place your Action Marker on the chosen action.
-    3. **Pay Main Action Cost:** Pay any resource costs associated with the chosen main Core Action. Adjust trackers on Storage Card.
-    4. **Perform Main Core Action:** Resolve the effects of the chosen main Core Action fully.
-    5. **Check Directives & Activate Optional Module Action:** After resolving the Main Core Action:
-        * **Identify Candidate Intersections:** The current player identifies all **Intersection Points** on the grid where **at least one of the four contributing sector corners belongs to a Sector Card they currently control.**
-        * **Scan Candidates:** The player then checks *only these candidate intersections* to see if any achieve **Pattern Matching** (see Glossary) for one of the public **Directive Cards**.
-        * **Activate (if matched and desired):** If a match is found, the player *may* choose to activate the paired **Action Module**:
-            * **Declare Intent:** State intent to use the Module.
-            * **Check Validity:** The Core Action type indicated by the Action Module **must be different** from the Main Core Action just performed this turn. If it is the same, the Module cannot be activated.
-            * **Pay Module Cost:** Pay the resource cost listed on the Action Module card. Adjust Storage Card.
-            * **Declare Module Action:** Declare the Core Action indicated by the Action Module.
-            * **Pay Action Cost:** Pay all normal resource costs associated with performing this secondary Core Action (e.g., Orange/Blue for Build, Green for Explore placement, Blue for Attack movement/Structure attack). Adjust Storage Card.
-            * **Perform Module Action:** Resolve the effects of this secondary Core Action fully.
-            * **Limit:** A player may only activate one Action Module per turn.
-    6. **Set Last Action:** Note which action (Main or Module) was performed chronologically last this turn for next turn's action repetition check.
-    7. **Check & Claim Objectives:** Immediately after any action (Main or Module) or income phase that results in meeting the condition for an unclaimed VP slot on a Public Objective Card, the player *may* claim it (Limit 1 claim per turn). See Section 11.1.
-* **Phase 3: Round End:** After all players have completed their turn, check for game end conditions. If the game continues, pass the Master of the Order token to the player who just acted last (holding the Master Card), and begin the next round (Phase 1).
+    2. **Choose Main Core Action:** Select **one** (Explore, Move, Build, Attack). You **cannot** choose the same main action you took last turn, unless you control an M-Brain. Place Action Marker on choice.
+    3. **Pay Main Action Cost:** Pay action's resource costs. Adjust trackers.
+    4. **Perform Main Core Action:** Resolve the action fully.
+    5. **(Optional) Check Directives & Activate Protocol:** After resolving the Main Action:
+        * **Check Intersections:** Look at **Intersection Points** (where 4 sector corners meet) adjacent to **sectors you control**.
+        * **Find Match:** See if the resource colors on the 4 corners match a face-up **Directive Card** (see **Pattern Matching** in Glossary).
+        * **Activate (Optional):** If matched, you *may* activate the paired **Protocol Card**:
+            * Check: Protocol action *must be different* from your Main Action this turn.
+            * Pay Protocol Cost (listed on card).
+            * Pay normal cost for the Protocol's action (e.g., Green for Explore, Blue/Orange for Build, etc.).
+            * Perform Protocol's action fully.
+            * **Limit:** Max 1 Protocol activation per turn.
+    6. **Note Last Action:** Remember which action (Main or Protocol) was chronologically last for next turn's restriction check.
+    7. **(Optional) Check & Claim Objectives:** If you now meet a condition for an unclaimed VP slot on a Public Objective Card, you *may* claim it. Place your Claim Marker.
+        * **Limit:** Max 1 claim per turn. Claim immediately or lose the chance for "this turn" objectives.
+* **Phase 3: Round End:** After all players act, check game end conditions. If none met, pass Master token to the player who just acted last. Start next round (Phase 1).
 
 ## 8. CORE ACTIONS
 
-* **A. EXPLORE ACTION**
-    1. **Declare Probes:** Send out up to 2 virtual Probes from sectors you control containing at least one fleet. Note origin sector(s).
-    2. **(Optional) Scientific Boost:** Spend **Green** (Scientific) resources *now*. Each spent allows drawing one additional Sector Card.
-    3. **Draw Cards:** Draw 2 (or more, if boosted) cards from Sector Deck. Reveal them.
-    4. **Place Cards:** Place revealed cards face-up onto the grid. Each must be placed adjacent to a probe's origin or an already placed card in a chain from a probe. **Declare the orientation** (rotation) of each placed card.
-        * *Hypergate Boost:* Probe from Hypergate sector can place its card up to **two** spaces away (through explored sectors).
-    5. **Pay Exploration Cost:** Calculate **total `back_value`** of all placed cards. Pay this amount in **Green (Scientific)** resources. If unaffordable, choose which card(s) not to place and shuffle back into the Sector Deck.
-    6. **Game End Trigger:** If drawing empties the Sector Deck, the game ends after placing/paying for the final card(s). Triggering player gains 5 VP.
+* **A. EXPLORE**
+    1. (Optional) Spend **Green**: Draw +1 Sector Card per Green spent.
+    2. Draw 2 (or more if boosted) Sector Cards. Reveal.
+    3. Place revealed card(s) adjacent to sectors you control (or chain from there). **Declare orientation** (rotation) for each.
+    4. Pay total Exploration Cost of *all placed cards* in **Green**. If you can't afford all, choose which to keep/pay for, shuffle others back.
+    5. *(Hypergate Boost: Placing from Hypergate sector allows placing up to 2 spaces away through explored sectors).*
+    6. *Game End Trigger:* If deck empties, game ends after placing/paying. Triggering player gets +5 VP.
 
-* **B. MOVE ACTION**
-  * **Effect:** Choose up to two controlled origin sectors. Move any number of your Fleets from there to explored sectors within range. Does *not* trigger combat.
-  * **Base Range:** 1 sector.
-  * **Logistic Boost:** Spend **Blue** (Logistic). Each resource increases range by 1 for this action.
-  * **Hypergate Boost:** Movement from Hypergate sector increases range by 1 (stacks with Logistic Boost).
-  * **Opponent Presence:** Moving into or through sectors containing opponent fleets has no inherent effect on movement range or stopping fleets during a Move Action.
-  * **Arrival & Control:** Reassess control after movement. Control = most Fleets. **Tiebreaker:** If fleets are tied, the player who controlled the sector *before* the move action retains control (if involved in the tie); otherwise, it becomes uncontrolled.
+* **B. MOVE**
+    1. Choose up to 2 sectors you control. Move any number of fleets from there.
+    2. Base Range: 1 sector (*Void Navigator base range: 2*).
+    3. (Optional) Spend **Blue**: +1 range per Blue spent (applies to all moves this action).
+    4. *(Hypergate Boost: Movement originating from a Hypergate sector gains +1 range).*
+    5. Move into/through enemy sectors freely. Does NOT trigger combat.
+    6. Reassess control of destination sector(s) after movement (most fleets wins ties, see Glossary: Control).
 
-* **C. BUILD ACTION**
-  * **Cost:** Pay combined **Orange** (Economic) and **Blue** (Logistic) costs for chosen options.
-  * **Build Options (Choose up to 2 in any combination):**
-        1. **Build Fleets:**
-            *Pay 1 **Orange** per fleet.
-            * Place up to 2 Fleets in Homeworld.
-            ***Outpost Bonus:** For each controlled Outpost sector, build +1 Fleet (paying cost) in *that Outpost's sector*.
-        2. **Build Structures:**
-            * Pay structure cost (see table). Place 1 structure in a controlled sector without your structure of the same type (except Outposts). Limit 1 Starlance, 1 Hypergate, 1 M-Brain, 2 Outposts per player.
-            ***Benefits Active:** Start of your next turn.
-            * **Structure Costs & Benefits:**
+* **C. BUILD**
+    1. Choose up to 2 Build options below (any combo). Pay combined **Blue** + **Orange** costs.
+    2. **Build Options:**
+        * **Build Fleets:** Pay 1 **Orange** per fleet. Place up to 2 Fleets in Homeworld. *(Outpost Boost: For each owned Outpost, may build +1 Fleet (paying cost) in that Outpost's sector).*
+        * **Build Structure:** Pay structure cost (see table below). Place 1 structure token in a controlled sector *without* your structure of same type (except Outposts - max 2 total). Limit 1 Starlance, 1 Hypergate, 1 M-Brain per player. Benefits start next turn.
 
-                | Structure | **Blue** Cost | **Orange** Cost | Benefit                                                                           | VP   |
-                | :-------- | :------------ | :-------------- | :-------------------------------------------------------------------------------- | :--- |
-                | Outpost   | 1             | 3               | Build +1 fleet in sector.                                                         | 2    |
-                | Starlance | 1             | 4               | Enable Attack Structure option.                                                   | 2    |
-                | Hypergate | 2             | 6               | Explore range +2 sectors (placement distance). Move range +1 sector.              | 2    |
-                | M-Brain   | 4             | 7               | +1 income/choice from adjacent controlled sectors. Allows repeating *main* action. | 3    |
+        | Structure | Blue Cost | Orange Cost | Benefit                                                            | VP   |
+        | :-------- | :-------- | :---------- | :----------------------------------------------------------------- | :--- |
+        | Outpost   | 1         | 3           | Build +1 fleet option in sector.                                   | 2    |
+        | Starlance | 1         | 4           | Enables Attack Structure option.                                   | 2    |
+        | Hypergate | 2         | 6           | Explore range +2 placement. Move range +1.                         | 2    |
+        | M-Brain   | 4         | 7           | +1 Income (choice) per adjacent controlled sector. Allows repeats. | 3    |
 
-* **D. ATTACK ACTION**
-  * **Effect:** Choose up to 2 options:
-        1. **Attack Fleets:**
-            *Declare attack on adjacent sector with opponent fleets. Choose up to 2 controlled origin sectors.
-            * Pay 1 **Blue** per sector boundary crossed to reach target. (Min 1).
-            *Move any Fleets from origin(s) into contested sector.
-            * **Trigger Combat:** Initiate Combat sequence (Section 9).
-            ***Hypergate Attack:** Attack any sector connected via explored path from Hypergate. Pay **Blue** cost for path length. Cannot cross unexplored sectors.
-        2. **Attack Structure:**
-            * Requires controlling a Starlance. Choose one Starlance.
-            *Pay 2 **Red** (Strategic) and 2 **Blue** (Logistic).
-            * Choose adjacent sector containing *any* structure. Remove it to owner's supply. (Unavailable if no Starlances controlled).
+* **D. ATTACK**
+    1. Choose up to 2 Attack options:
+        * **Attack Fleets:** Target adjacent sector with opponent fleets.
+            * Choose 1 or 2 origin sectors you control.
+            * Pay 1 **Blue** per border crossed from each origin to reach target (min 1 Blue total).
+            * Move any number of fleets from origin(s) into target. **Initiate Combat** (Section 9).
+            * *(Hypergate Attack: Can attack any sector reachable via explored path from Hypergate. Pay Blue cost = path length).*
+        * **Attack Structure:** Requires owning a Starlance.
+            * Choose one of your Starlances. Pay 2 **Red** + 2 **Blue**.
+            * Target adjacent sector with *any* structure. Remove token to owner's supply.
 
-## 9. COMBAT RULES
+## 9. COMBAT RULES (VECTOR COMMAND)
 
-Resolves conflicts when fleets from different players occupy the same sector after an Attack Action. Uses the "Vector Command" system.
+Resolves when Attack Action moves fleets into sector with opponent(s). Uses Battle Mat & Fleet Roster.
 
-### 9.A. Combat Sequence
+1. **Participants:** Identify Attacker (initiated attack) & Defender(s). All players with fleets participate.
+2. **Secret Fleet Configuration:** All participants go behind Player Screens. Secretly use Fleet Roster Indicators on Fleet Roster Card to assign your fleets in the sector to the 5 Ship Types. Total must match fleets present.
+3. **Reveal & Place:** Simultaneously reveal Rosters. Place corresponding fleet tokens onto Ship Type Nodes on Battle Mat. Clear Roster Card.
+4. **Determine Dice Pool:** Each player checks Battle Mat. For each node with *your* ships: gain 1 die per outgoing Attack Vector arrow pointing to a node with *enemy* ships. Max 2 dice earned *per node you occupy*. Gather total dice (your color).
+5. **Roll Dice:** All players roll their dice pool simultaneously.
+6. **Identify Hits:** Each die showing 5 or 6 is a "Hit". Collect your Hits.
+7. **Secret Hit Allocation:** Go behind screens again. Look at your Hits total. Secretly use Roster Indicators on Roster Card tracks: Assign your Hits to target specific *enemy ship types* you have valid Attack Vectors against (arrows from your ships pointing to theirs). Total value across indicators must equal your Hits total.
+8. **Reveal Allocation:** Simultaneously reveal Rosters showing hit assignments.
+9. **Resolve Hits (Sequentially):**
+    * **Order:** Attacker resolves all their hits first, then Defenders resolve in player turn order.
+    * **Active Player:** For each hit assigned on your Roster to an enemy type (e.g., 2 hits on "Shield Cruiser" track): Choose 1 enemy fleet token *of that type* currently **on its Node** on the Battle Mat. **Physically move** that token into the "Damaged Area" around that node. *You choose which opponent's ship if multiple.* Ships moved here cannot be targeted again *this step*. Repeat for all your hits.
+10. **Remove Casualties (Simultaneously):** After *all* players finish Step 9, **remove ALL** fleet tokens currently in **any Damaged Area** from the game (return to supply).
+11. **End Combat Round?** Check Battle Mat.
+    * If >1 player still has fleets: Start new combat round at Step 4 (Determine Dice).
+    * If <=1 player has fleets: **Combat Ends.**
+12. **Post-Combat Control:** Winning player (last one with fleets) controls the sector. If mutual destruction, sector is uncontrolled (unless Defender had a structure, then they keep control).
 
-1. **Initiation:** Identify the player whose Attack Action initiated combat (the **Attacker**) and any other players with fleets present (the **Defenders**). All players with fleets in the sector participate.
-2. **Fleet Configuration (Secret & Simultaneous):**
-    * All participating players go **behind their Player Screens**.
-    * Secretly assign your fleet tokens currently in the contested sector to the 5 ship type nodes on your *Fleet Roster card* by setting the **Fleet Roster Indicators** on the corresponding tracks to the number of ships of that type. The total number across indicators must match your fleet count in the sector.
-    * Simultaneously **reveal** the Fleet Roster cards.
-    * Place the corresponding physical *fleet tokens* from the sector onto the appropriate Ship Type Nodes on the shared **Battle Mat**.
-    * *The Fleet Roster Card is now cleared and available for the next secret step.*
-3. **Determine Dice Allocation (Vector-Based):**
-    * Each participating player determines their total dice pool for the round:
-    * Look at the Battle Mat. For **each** Ship Type node where you have **at least one** fleet token:
-        * Check the **two** outgoing Attack Vector arrows from that node.
-        * For **each** of those two arrows: If there is **at least one enemy** fleet token on the node that the arrow points **to**, you gain **one die** for activating that specific vector.
-    * **Node Cap:** You can gain a maximum of **two dice** *total* from any single Ship Type node you control.
-    * **Total Dice:** Gather the total number of dice earned from all nodes where you have ships. Use dice of your player color. *(Confirm if there's an absolute player cap, e.g., max 5 dice total, if desired).*
-4. **Roll Dice Pool (Simultaneous, Consolidated):**
-    * Each participating player takes their allocated pool of dice.
-    * All players roll their entire pool of **colored dice** simultaneously in their own play area.
-5. **Identify Successes ("Hit Pool"):**
-    * Each player examines their rolled dice and gathers all dice showing a success (**5 or 6**). These successes form their personal "Hit Pool" for the round. Set aside the misses.
-6. **Secretly Allocate Hits on Roster (Simultaneous):**
-    * All participating players go **behind their Player Screens** again with their *cleared* Fleet Roster Card.
-    * Look at your Hit Pool total (number of successes). Look at the Battle Mat for currently valid Attack Vectors (any of your ship types pointing via an arrow to any enemy ship type they counter that is present).
-    * Secretly set your **Fleet Roster Indicators** on the 5 tracks: The track represents the **enemy ship type** you intend to hit. The **value (e.g., 1-5) you set the indicator to** represents **how many of your hits** you are allocating *to damage that enemy type*.
-    * The total value set across all 5 indicators must equal the total number of successes in your Hit Pool. You can only allocate hits to tracks corresponding to enemy ship types reachable via valid Attack Vectors from your ships currently on the Battle Mat.
-7. **Simultaneous Reveal of Rosters (Damage Allocation):**
-    * All players remove their screens and reveal their Fleet Roster Cards, showing their damage allocation decisions for the round.
-8. **Sequentially MOVE Targeted Ships to Damaged Area:**
-    * Determine allocation order: The **Attacker** resolves fully first, then any other players involved resolve fully in **player turn order** relative to each other.
-    * **Active Player's Turn (e.g., Player A):**
-        * Look at your revealed Roster showing your hit allocations (e.g., '2' hits allocated to Track #2: Shield Cruisers).
-        * For each hit allocated to a specific track (enemy type): Choose one enemy fleet token of that type currently **on the central Ship Type Node**. **Physically move that chosen fleet token** from the Node into the corresponding outer **Damaged Area** surrounding that Node.
-        * *Target Choice:* If multiple opponents have ships of the target type on the Node, you choose which opponent's ship to move for each allocated hit.
-        * *Effect of Being Moved:* Once a ship token is moved to the Damaged Area during this step, it remains there and is effectively marked for destruction. It cannot be targeted again *by subsequent hit allocations within this Step 8*. Players must target ships remaining on the *central Nodes*.
-        * Repeat this moving process for all hits allocated on your Roster.
-    * **Next Player's Turn:** Once the active player has finished moving targeted ships for all their allocated hits, the next player in the resolution order repeats the moving process based on *their* revealed roster.
-    * Continue until all participating players have moved targeted ships corresponding to their revealed allocations.
-9. **Resolve Casualties (Simultaneous Removal from Damaged Areas):**
-    * **After** all players have finished Step 8 (Moving Targeted Ships).
-    * Look at the Battle Mat.
-    * **Simultaneously remove ALL** fleet tokens that are currently located in **any of the 5 outer Damaged Areas**. Return removed tokens to their owners' supply.
-    * The central Ship Type Nodes now only contain the surviving ships, ready for the next combat round check (Step 10).
-10. **End of Combat Round Check:**
-    * After resolving casualties, check the Battle Mat.
-    * If fleets belonging to **more than one player** remain, a **New Combat Round** begins. Return to **Step 3 (Determine Dice Allocation)** based on the remaining fleets.
-    * If only **one player** has fleets remaining, or **no players** have fleets remaining, **Combat Ends**.
-11. **Post-Combat Control:**
-    * If one player has fleets remaining, they take or retain control of the sector.
-    * If no players have fleets remaining (mutual destruction), the sector becomes **uncontrolled**, **unless** one of the players involved was the original Defender *and* had a structure present in the sector *before* the combat started. In that specific case, that player retains control of the sector.
+## 10. FLEETS & SHIP TYPES (RPS System)
 
-### 9.B. The Battle Mat
+Used during Combat Configuration (Step 2) & Hit Allocation (Step 7).
 
-* **Node Representation:** 5 nodes for 5 Ship Types. Place configured fleet tokens here during combat.
-* **Arrows Indication:** Show which type counters which target type (defining valid Attack Vectors). Used for determining dice allocation (Step 3) and validating hit allocation choices (Step 6 & 8).
-* **Attack Vector Areas:** The arrows visually represent the paths attacks follow.
-* **Damaged Areas:** 5 zones on the mat, one surrounding each Node. Targeted ships are moved here in Step 8 and removed from play from here in Step 9.
-
-## 10. FLEETS & SHIP TYPES
-
-Fleets configured into types during combat via RPS system.
-
-* **Rules & Descriptions:**
-  * **Beam Frigate:**
-    * *Counters:* Shield Cruiser, Drone Carrier
-    * *Countered By:* Artillery Platform, Fighter Squadron
-    * *Description:* Uses precise energy beams effective against shields and drone swarms, but vulnerable to long-range artillery and agile fighters.
-  * **Shield Cruiser:**
-    * *Counters:* Fighter Squadron, Artillery Platform
-    * *Countered By:* Beam Frigate, Drone Carrier
-    * *Description:* Heavy shields absorb fighter attacks and mitigate artillery impact, but can be penetrated by focused beams or overwhelmed by coordinated drone attacks.
-  * **Artillery Platform:**
-    * *Counters:* Drone Carrier, Beam Frigate
-    * *Countered By:* Shield Cruiser, Fighter Squadron
-    * *Description:* Engages from extreme range, effective against frigates and drone swarms, but vulnerable to shielded cruisers absorbing hits and fighters closing distance.
-  * **Drone Carrier:**
-    * *Counters:* Fighter Squadron, Shield Cruiser
-    * *Countered By:* Beam Frigate, Artillery Platform
-    * *Description:* Overwhelms fighters with numbers and exploits shield gaps, but vulnerable to anti-swarm beams and area-effect artillery.
-  * **Fighter Squadron:**
-    * *Counters:* Beam Frigate, Artillery Platform
-    * *Countered By:* Shield Cruiser, Drone Carrier
-    * *Description:* Agile craft dodge beams and evade slow artillery to counter-attack, but struggle against heavy shields and drone swarms.
+* **Beam Frigate:** Counters Shield Cruiser, Drone Carrier. Countered by Artillery Platform, Fighter Squadron.
+* **Shield Cruiser:** Counters Fighter Squadron, Artillery Platform. Countered by Beam Frigate, Drone Carrier.
+* **Artillery Platform:** Counters Drone Carrier, Beam Frigate. Countered by Shield Cruiser, Fighter Squadron.
+* **Drone Carrier:** Counters Fighter Squadron, Shield Cruiser. Countered by Beam Frigate, Artillery Platform.
+* **Fighter Squadron:** Counters Beam Frigate, Artillery Platform. Countered by Shield Cruiser, Drone Carrier.
 
 ## 11. OBJECTIVE CARDS & CLAIMING
 
-Five Objective Cards form the **Public Objectives Row**. *(Note: Objective card details and specific conditions are currently under review and may be simplified/changed.)*
+Five public cards offer VP. *(Note: Specific conditions on cards may be complex; refer to card text. These might be simplified based on playtesting.)*
 
-* **11.1. Claiming Objectives**
-  * **Eligibility:** During your turn, if you meet the condition for an unclaimed VP slot on a Public Objective Card.
-  * **Timing:** Declare claim **immediately** after the game state reflects the condition is met (after action resolution, during income, etc.).
-  * **Limit:** Max **one** Objective VP slot claim per turn.
-  * **Procedure:** Declare claim. Place one **Claim Marker** on that specific VP slot.
-  * **Exclusivity:** Claimed slots cannot be claimed again.
-  * **"This Turn" Objectives:** Must be claimed immediately following the event. Opportunity lost if you proceed without claiming.
-  * **Game End Trigger:** Claiming the very last available VP slot across all 5 cards ends the game immediately.
+* **Claiming:** During your turn (Phase 2, Step 7), if you meet the condition for an unclaimed VP slot on a card, you *may* place your Claim Marker there.
+* **Limit:** Max 1 claim per turn. Claim immediately for "This Turn" conditions.
+* **Game End Trigger:** Claiming the very last VP slot across all 5 cards ends the game.
 
 ## 12. STRUCTURES
 
-Provide ongoing benefits and VP. See Build Action for costs/placement.
+Placed via Build Action. Provide VP and benefits starting next turn.
 
-* **Outpost:** Enables fleet building in sector (2 VP).
-* **Starlance:** Enables Attack Structure action (2 VP).
-* **Hypergate:** Improves Explore/Move ranges (2 VP).
-* **M-Brain:** When gaining income, for each sector you control that is adjacent to the M-Brain's sector, gain 1 additional resource **of your choice**. Allows repeating the *main* Core Action on consecutive turns. (3 VP).
-* **Interaction with Combat:** Allows the original defender to retain control of the sector on mutual destruction if they had a structure present. No direct active combat bonus currently defined.
+* **Outpost:** Allows building +1 fleet in its sector. (2 VP)
+* **Starlance:** Enables "Attack Structure" option. (2 VP)
+* **Hypergate:** Boosts Explore placement range (+2), Move range (+1). (2 VP)
+* **M-Brain:** +1 income (choice) per adjacent controlled sector. Allows repeating main action. (3 VP)
+* *(Combat Relevance: See Section 9, Step 12)*
 
-## 13. DIRECTIVE & ACTION MODULE
+## 13. DIRECTIVE & PROTOCOL RULES
 
-Four public **Directive/Module Positions** offer bonus actions.
+Three public pairs offer bonus actions.
 
-* **Tiers:** Directives (D1 Easy, D2 Med, D3 Hard) and Modules (M1 Cheap, M2 Mid, M3 Exp) are tiered.
-* **Positions:** Initial setup pairs tiers: Pos 1 (D1/M3), Pos 2 (D1/M2), Pos 3 (D2/M2), Pos 4 (D3/M1).
-* **Activation:** After your Main Action, check for **Pattern Matching** at intersections adjacent to your controlled sectors. If a match for a Directive is found, you *may* activate its paired Module.
-* **Module Use:** Pay Module cost + normal Action cost. Module action must differ from Main Action. Limit 1 Module activation per turn. See Turn Structure Phase 2, Step 5 for full details.
-* **Master Influence:** Master of Orders refreshes one pair/card within its tier each round (Phase 1, Step 2).
-* **Deck Management:** Tiered decks reshuffle from their discard pile when empty.
+* **Tiers:** Directive (1 Easy, 2 Med, 3 Hard), Protocol (1 Cheap, 2 Mid, 3 Expensive).
+* **Display:** Pairs D1/P3, D2/P2, D3/P1 visible. Draw/discard from tiered decks above/below.
+* **Activation:** See Turn Structure (Phase 2, Step 5). Requires **Pattern Matching** (see Glossary) at intersection adjacent to your controlled sector. Bonus Protocol action must differ from Main Action. Pay Protocol cost + Action cost. Limit 1 per turn.
+* **Master Influence:** Master refreshes one card or pair each round (Phase 1, Step 2).
 
 ## 14. END OF GAME
 
 Game ends **immediately** when:
 
-1. **Grid Completion:** Last Sector Card drawn, placed, paid for. Exploring player gains 5 bonus VP.
-2. **Objective Completion:** Player claims the final available VP slot on any Public Objective Card.
+1. **Grid Completion:** Last Sector Card placed & paid for. (+5 VP to exploring player).
+2. **Objective Completion:** Last VP slot on any Public Objective Card claimed.
 
 Proceed immediately to Scoring.
 
@@ -341,65 +225,37 @@ Proceed immediately to Scoring.
 
 Calculate final VP:
 
-1. **Grid Completion Bonus:** +5 VP for player placing last Sector card (if applicable).
-2. **Controlled Sectors:** +1 VP per controlled sector.
-3. **Structures:** +VP per structure owned on the map (Outpost/Starlance/Hypergate=2 VP, M-Brain=3 VP).
-4. **Fleet Tokens:** +1 VP per 3 of your Fleet Tokens remaining on the map.
-5. **Economic Resources:** +1 VP per 1 **Orange** resource remaining.
-6. **Special Goals (Civilization Specific):** ... *(Currently only Helix Cultivators gain minor non-VP benefits)*
-7. **Objective Cards:** Gain VP equal to value of each Objective slot claimed with your Claim Marker. *(Objectives pending review)*
+1. **Grid Bonus:** +5 VP if you placed the last Sector Card.
+2. **Controlled Sectors:** +1 VP per sector you control.
+3. **Structures:** VP per structure owned on map (Outpost/Starlance/Hypergate=2 VP, M-Brain=3 VP).
+4. **Fleet Tokens:** +1 VP per 3 Fleet Tokens you have on map (round down).
+5. **Economic Resources:** +1 VP per 1 **Orange** resource on Storage Card.
+6. **Objective Cards:** VP value for each Objective slot you claimed.
 
-Player with most VP wins. **Tiebreaker:** Most total remaining non-Orange resources (Blue+Red+Green combined). If still tied, most Fleet Tokens remaining on the map.
+**Winner:** Player with the most VP.
+**Tiebreaker:** 1st: Most combined Blue + Red + Green resources. 2nd: Most Fleet Tokens on map.
 
 ## 16. GLOSSARY
 
 * **Action Display:** Player board showing core actions.
-* **Action Marker:** Token on Action Display tracking last main action.
-* **Action Module:** Card providing a bonus action. See Section 13.
-* **Action Repetition:** See Section 7, Phase 2, Step 2 & M-Brain (Section 12).
-* **Attack Action:** Core action for Combat or Structure Attack.
-* **Attack Vector:** An arrow on the Battle Mat showing a valid RPS counter (Origin Ship Type -> Target Ship Type). Used for determining dice allocation and validating hit allocation.
-* **Attacker:** The player whose Attack Action initiated the current combat sequence. Resolves first in sequential steps.
-* **Battle Mat:** Tile for resolving combat. See Section 9.B.
-* **Build Action:** Core action for Fleets/Structures.
-* **Claim Marker:** Player token for claiming Objective VP slots.
-* **Combat:** Process triggered by Attack Action, uses "Vector Command". See Section 9.
-* **Controlled Sector:** Sector with most Fleets. **Tiebreaker:** If fleets are tied, the player who controlled the sector *before* the most recent Move/Attack action that caused the tie retains control (if involved in the tie); otherwise, it becomes uncontrolled. Exception: Defender with structure retains control on mutual destruction (See Section 9.A Step 11).
-* **Damaged Area:** A designated zone on the Battle Mat surrounding each Ship Type Node. During combat Step 8 (Move Targeted Ships), fleet tokens allocated hits against are moved from the Node into this area. In Step 9 (Resolve Casualties), all tokens within these areas are removed from play.
-* **Defender(s):** Player(s) with fleets in a sector when an opponent initiates combat via an Attack Action into that sector.
-* **Directive Card:** Card defining a spatial pattern condition. See Section 13.
-* **Dice Allocation:** Process (Step 3 of Combat) determining how many dice each player rolls based on their ships and valid attack vectors.
-* **Economic (Resource): Orange** resource.
-* **Explore Action:** Core action to place new Sector cards.
-* **Fleet Configuration:** Secret assignment (Step 2 of Combat) of fleet tokens to ship types using the Fleet Roster Card.
-* **Fleet Roster Card:** Private player card with 5 tracks (representing ship types) and values. Used behind screen for **secret fleet configuration** (Step 2), then cleared and used again for **secret hit allocation** (Step 6).
-* **Fleet Roster Indicators:** Tokens used behind screen on the Fleet Roster Card tracks to set ship counts (Configuration) or allocate hits (Hit Allocation).
-* **Fleet Tokens:** Generic tokens for fleets on main board.
-* **Hit Allocation:** Secret decision (Step 6 of Combat) made on the Fleet Roster Card determining how many hits to assign against specific enemy ship types.
-* **Hit Pool:** The set of dice that rolled successes (5 or 6) in Step 5 of Combat.
-* **Homeworld:** Starting Sector card.
-* **Hypergate:** Structure boosting Explore/Move.
-* **Intersection Point:** Point where four Sector Card corners meet. Used for checking Directive Pattern Matching.
-* **Logistic (Resource): Blue** resource.
-* **M-Brain:** Structure providing income bonus and allowing repeat actions.
-* **Master of the Order Token:** Grants control over Turn Order/Directive refresh.
-* **Move Action:** Core action to move fleets without combat.
-* **Move Action:** Core action to move fleets without combat.
-* **Node:** Point on Battle Mat representing a Ship Type.
-* **Objective Cards:** Public goals for VP. *(Pending review)*.
-* **Order Cards:** Determine turn order.
-* **Outpost:** Structure allowing local fleet building.
-* **Pattern Matching (Directives):** Process of checking resource types at Intersection Points against a Directive Card. See Section 13 & Glossary entry in previous version for full details.
-* **Player Screen:** Component used to hide the Fleet Roster Card during secret steps.
-* **Rock-Paper-Scissors (RPS):** System defining Ship Type counters. See Section 10.
-* **Scientific (Resource): Green** resource (Explore boost/cost).
-* **Sector Card:** Card forming map grid.
-* **Standard Resource Order:** (For corner assumption) TL=Blue, TR=Orange, BL=Red, BR=Green.
-* **Starlance:** Structure enabling Attack Structure.
+* **Action Marker:** Token tracking last main action.
+* **Action Repetition:** Cannot take same *main* action twice in a row unless M-Brain allows.
+* **Attack Vector:** Arrow on Battle Mat showing Ship Type counter. Used for Dice Pool & Hit Allocation.
+* **Battle Mat:** Area for combat resolution.
+* **Claim Marker:** Token to claim Objective VP slots.
+* **Combat:** Process for resolving fleet battles (Section 9).
+* **Control (Sector):** Player with most Fleets. Tie = Previous controller keeps control (if involved); else uncontrolled. Exception: Defender w/ structure retains on mutual destruction.
+* **Damaged Area:** Zone on Battle Mat where hit ships are moved (Step 9), then removed (Step 10).
+* **Directive Card (Directive 1/2/3):** Shows pattern for bonus action eligibility.
+* **Fleet Roster Card / Indicators:** Used behind screen for secret Combat Configuration (Step 2) & Hit Allocation (Step 7).
+* **Intersection Point:** Point where 4 Sector Card corners meet. Checked for Pattern Matching.
+* **Master of the Order:** Player controlling start-of-round decisions (Section 7, Phase 1).
+* **Node (Battle Mat):** Spot representing one Ship Type.
+* **Orientation (Sector Card):** Rotation chosen when placing card, determines which resource faces each direction.
+* **Pattern Matching (Directives):** At an Intersection Point adjacent to a sector you control: Check the 4 resource colors on the corners meeting there against the Directive's 4 dots (TL, TR, BL, BR). Blue/Orange/Red/Green dots must match the corner resource color. **White dot matches ANY color.** If all 4 positions match, the Directive is fulfilled.
+* **Protocol Card (Protocol 1/2/3):** Action Module card granting bonus action.
+* **Resources:** Blue (Logistic), Orange (Economic), Red (Strategic), Green (Scientific).
+* **RPS:** Rock-Paper-Scissors system for Ship Types (Section 10).
 * **Storage Card:** Player board for tracking resources.
-* **Strategic (Resource): Red** resource.
-* **Structure Tokens:** Physical tokens for structures.
-* **Success:** A die roll result of 5 or 6 in combat.
-* **Tiered Decks:** Directive (D1, D2, D3) and Module (M1, M2, M3) decks. See Section 13.
 
 ---
