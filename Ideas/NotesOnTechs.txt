@@ -1,0 +1,71 @@
+Mapping Tech Subcategories to Actions/Phases:
+
+1. EXPLORE Action:
+* (Focus: Finding new sectors, scanning, identifying features)
+* Geology: (Geological Scanners, Geothermal Probes) - Better understanding of planet composition during exploration.
+* Spectroscopy: (Spectrometers, Light Analyzers, Emission Scanners) - Analyzing distant phenomena or sector composition upon discovery.
+* Void: (Deep Space Probes, Exploration Drones) - Pushing into unknown territory.
+* Surveying: (Long-Range Scanners, Survey Satellites, Mapping Drones) - Comprehensive scanning of new or existing areas.
+* Mapping: (Holographic Maps, Cartography Tools, Spatial Databases) - Directly related to creating and using explored data, might enhance future exploration or movement based on explored data.
+* Intelligence: (Recon Satellites, Surveillance Networks) - Can overlap with scanning during exploration to reveal more about adjacent areas or potential threats.
+* Astrobiology: (Microbial Analyzers) - Specifically finding signs of life during exploration.
+
+2. MOVE Action:
+* (Focus: Fleet movement efficiency, range, safety during transit)
+* Gravitational: (Inertial Dampeners, Gravity Stabilizers) - Making movement smoother or faster.
+* Navigation: (Star Maps, Positioning Systems, Navigation Beacons) - Directly improving movement calculation and efficiency.
+* Logistics: (Supply Networks) - Could relate to the range fleets can operate effectively from bases.
+* Turbulence: (Stabilizers, Gyroscopes, Anti-Turbulence Thrusters) - Improving movement through hazardous (Unstable) space.
+* Mapping: (Holographic Maps, Cartography Tools) - Could grant movement bonuses based on previously mapped areas.
+
+3. BUILD Action:
+* (Focus: Constructing fleets/structures, cost efficiency, advanced materials)
+* Ecology: (Biospheres) - Could represent building specific ecological structures.
+* Terraforming: (Atmospheric Generators, Soil Enrichers, Climate Modifiers) - Represents large-scale construction/modification projects.
+* Metallurgy: (Refinement Furnaces, Alloy Synthesizers, Metal Printers) - Improving the efficiency or capability of construction.
+* Chemistry: (Synthesis Machines) - Creating materials needed for advanced construction.
+* Infrastructure: (Space Elevators, Orbital Stations, Transport Hubs) - Directly building large-scale installations.
+* Defense: (Force Fields, Defense Drones, Protective Barriers) - Building defensive emplacements or structures.
+
+4. ATTACK Action / COMBAT Phase:
+* (Focus: Initiating combat, combat effectiveness, defense during battle)
+* Radiation: (Shielding Systems, Containment Fields) - Defense against energy weapons or hazards during combat.
+* Gravitational: (Graviton Shields) - Advanced defenses during combat.
+* Safety: (Hazmat Suits, Safety Protocols) - Could mitigate crew/fleet losses in combat.
+* Supernova: (Energy Shields, Shock Absorbers, Radiation Deflectors) - Defense against powerful attacks or environmental effects in combat.
+* Dynamics: (Motion Sensors, Kinetic Analyzers, Dynamic Predictors) - Improving targeting or evasion during combat.
+* Defense: (Force Fields, Defense Drones) - Direct application in combat.
+* Tactics: (AI Strategists, Tactical Simulators, Command Interfaces) - Improving combat choices, dice rolls, or special maneuvers.
+* Intelligence: (Spy Drones) - Providing tactical advantages before or during combat.
+* Dark: (Low-Light Sensors, Night Vision Systems, Infrared Cameras) - Improving combat effectiveness in specific conditions or against specific stealth techs.
+
+5. RESEARCH Action:
+* (Focus: Improving the research process itself, fundamental science breakthroughs)
+* Astrophysics: (Particle Colliders, Gravity Wave Detectors) - Fundamental research enabling further breakthroughs.
+* Cosmology: (Dark Matter Detectors, Cosmic Background Analyzers, Universe Simulators) - High-level theoretical research.
+* Stellar: (Star Analyzers, Stellar Observatories, Photon Collectors) - Foundational observation likely fueling other research.
+* (Some techs from other areas might also primarily benefit Research, e.g., techs that reduce research cost).
+
+6. INCOME Phase / Passive Effects:
+* (Focus: Resource generation, upkeep reduction, ongoing benefits)
+* Astrobiology: (Bioreactors) - Could provide ongoing Green/Blue resources.
+* Ecology: (Environmental Simulators, Ecosystem Monitors) - Could enhance resource output from Biosphere sectors.
+* Climatology: (Weather Control, Climate Models, Temperature Regulators) - Could modify sector yields passively or require activation.
+* Mining: (Autonomous Miners, Ore Processors) - Directly increase Orange resource income.
+* Geology: (Seismic Sensors, Geothermal Probes) - Could passively increase resource yield in certain sectors.
+* Metallurgy: (Refinement Furnaces) - Could provide passive Orange income or cost reduction.
+* Chemistry: (Chemical Analyzers, Reaction Chambers) - Might provide passive resource generation or conversion options.
+* Survival: (Life Pods, Survival Kits, Biosupport Systems) - Could reduce potential upkeep costs (if implemented) or provide minor passive population growth/stability effects.
+* Logistics: (Cargo Drones, Autonomous Freighters) - Could provide passive Blue resource income.
+
+7. PROTOCOL Activation / Special Actions:
+* (Focus: Coordinated actions, temporary boosts, unique abilities)
+* Climatology: (Weather Control) - Could be a Protocol effect to temporarily change a sector's conditions.
+* Instability: (Predictive Algorithms, Chaos Models, Stabilization Systems) - Could be Protocols to temporarily mitigate Unstable sector effects or trigger specific events.
+* Communication: (Quantum Communicators, Relay Satellites, Signal Boosters) - Could enable Protocols that allow actions at greater range or enhance coordination (e.g., allow two fleets to combine attack from non-adjacent sectors via comms link).
+
+8. MASTER OF ORDER Phase / Diplomacy:
+* (Focus: Influencing turn order, negotiations, information)
+* Diplomacy: (Translation Devices, Negotiation AIs, Diplomatic Channels) - Directly impacts interaction between players, likely during this phase (bribing, deal-making if rules exist).
+* Intelligence: (Spy Drones) - Could provide information relevant to bribing or predicting the Master's choices.
+* Communication: (Quantum Communicators) - Could facilitate faster/more complex deal-making during this phase.

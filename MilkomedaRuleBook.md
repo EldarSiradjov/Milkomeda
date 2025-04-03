@@ -114,12 +114,39 @@ Game proceeds in rounds. Each round:
 
 ## 8. CORE ACTIONS
 
-* **A. EXPLORE**
-    1. (Optional) Spend **Green**: Draw +1 Sector Card per Green spent.
-    2. Draw 2 (or more if boosted) Sector Cards. Reveal.
-    3. Place revealed card(s) adjacent to sectors you control (or chain from there). **Declare orientation** (rotation) for each.
-    4. Pay total Exploration Cost of *all placed cards* in **Green**. If you can't afford all, choose which to keep/pay for, shuffle others back.
-    5. *Game End Trigger:* If deck empties, game ends after placing/paying. Triggering player gets +5 VP.
+### Core Action: EXPLORE
+
+When selecting the Explore action for your turn, you must **choose one** of the following two modes before proceeding:
+
+### Explore Mode: Space
+
+* **Goal:** Expand your physical territory, gain access to new sectors and resources.
+* **Procedure:**
+    1. **(Optional Boost):** You may spend **1 Green resource** per additional Sector card you wish to draw this action (decide before drawing).
+    2. **Draw:** Draw **2** Sector cards (plus any boosted amount) from the Sector Deck. Reveal them.
+    3. **Place:** Select one or more of the revealed Sector cards to place on the map. Place them adjacent to sectors you currently control. You must declare the **orientation** (rotation) of each card as you place it.
+    4. **Pay Sector Cost:** For *each* Sector card you placed, pay its individual **Exploration Cost** (the `back_value`) in **Green** resources.
+    5. **Cleanup:** Shuffle any revealed Sector cards you chose *not* to place back into the Sector Deck.
+    6. **(Game End Check):** If the Sector Deck was emptied during the Draw step, the relevant game end condition is checked after placement and payment are complete.
+
+### Explore Mode: Technology
+
+* **Goal:** Research new technologies by leveraging knowledge associated with controlled territories.
+* **Procedure:**
+    1. **Check Access:** Identify the unique Sector Keywords (Biosphere, Extraction, Hazard, Observatory, Transit, Unstable, Warzone, Wasteland) present across all sectors you currently control. If you control no sectors with any of these keywords, you **cannot** choose this mode.
+    2. **Select Tech Path:** Choose **one** specific Tech Deck corresponding to one of the keywords (`K`) you have access to.
+    3. **Determine Max Eligible Tier (Hybrid Rule):** Based on your controlled sectors, find the highest Tech Tier (I, II, or III) you can research *for path `K`* this turn:
+        * **Eligible for Tier I if:** You control **1+** sectors with keyword `K`.
+        * **Eligible for Tier II if:** You control sectors with **3+ different keywords** overall.
+        * **Eligible for Tier III if:** You control **2+** sectors with keyword `K`.
+        *(Note: You must meet the Tier I condition to even select path `K`. Check II and III to find your *maximum* allowed tier for this action).*
+    4. **Choose Tier & Pay Cost:** Select the specific Tier (I, II, or III) you wish to research from within your chosen Tech Path `K` (cannot exceed your determined maximum eligibility). Pay the corresponding **Tech Tier Cost** in **Green** resources:
+        * Tier I: Pay **3 Green**
+        * Tier II: Pay **5 Green**
+        * Tier III: Pay **7 Green**
+    5. **Acquire Knowledge:** Draw **2** cards from the chosen Tech Deck *and* chosen Tier. Secretly examine both cards.
+    6. **Implement Tech:** Select **1** of the drawn cards to keep. Place it face-up in your play area; its effect is now active.
+    7. **Discard:** Discard the unchosen tech card face-down to the appropriate discard pile. *(If the chosen deck/tier is empty or has only 1 card, draw what is available. The action fails after payment if zero cards can be drawn).*
 
 * **B. MOVE**
     1. Choose up to 2 sectors you control. Move any number of fleets from there.

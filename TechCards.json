@@ -1,0 +1,484 @@
+{
+    "technologies": [
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Astrobiology",
+        "tech_name": "Bioreactors"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Astrobiology",
+        "tech_name": "Gene Sequencers"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Astrobiology",
+        "tech_name": "Microbial Analyzers"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Ecology",
+        "tech_name": "Biospheres"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Ecology",
+        "tech_name": "Environmental Simulators"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Ecology",
+        "tech_name": "Ecosystem Monitors"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Terraforming",
+        "tech_name": "Atmospheric Generators"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Terraforming",
+        "tech_name": "Soil Enrichers"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Terraforming",
+        "tech_name": "Climate Modifiers"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Climatology",
+        "tech_name": "Weather Control"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Climatology",
+        "tech_name": "Climate Models"
+      },
+      {
+        "theme_category": "Biosphere",
+        "sub_category": "Climatology",
+        "tech_name": "Temperature Regulators"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Mining",
+        "tech_name": "Autonomous Miners"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Mining",
+        "tech_name": "Laser Drills"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Mining",
+        "tech_name": "Ore Processors"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Geology",
+        "tech_name": "Seismic Sensors"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Geology",
+        "tech_name": "Geothermal Probes"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Geology",
+        "tech_name": "Geological Scanners"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Metallurgy",
+        "tech_name": "Refinement Furnaces"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Metallurgy",
+        "tech_name": "Alloy Synthesizers"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Metallurgy",
+        "tech_name": "Metal Printers"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Chemistry",
+        "tech_name": "Synthesis Machines"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Chemistry",
+        "tech_name": "Chemical Analyzers"
+      },
+      {
+        "theme_category": "Extraction",
+        "sub_category": "Chemistry",
+        "tech_name": "Reaction Chambers"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Radiation",
+        "tech_name": "Shielding Systems"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Radiation",
+        "tech_name": "Radiation Sensors"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Radiation",
+        "tech_name": "Containment Fields"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Gravitational",
+        "tech_name": "Gravity Stabilizers"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Gravitational",
+        "tech_name": "Inertial Dampeners"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Gravitational",
+        "tech_name": "Graviton Shields"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Safety",
+        "tech_name": "Hazmat Suits"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Safety",
+        "tech_name": "Safety Protocols"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Safety",
+        "tech_name": "Emergency Shelters"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Survival",
+        "tech_name": "Life Pods"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Survival",
+        "tech_name": "Survival Kits"
+      },
+      {
+        "theme_category": "Hazard",
+        "sub_category": "Survival",
+        "tech_name": "Biosupport Systems"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Astrophysics",
+        "tech_name": "Space Telescopes"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Astrophysics",
+        "tech_name": "Particle Colliders"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Astrophysics",
+        "tech_name": "Gravity Wave Detectors"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Cosmology",
+        "tech_name": "Dark Matter Detectors"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Cosmology",
+        "tech_name": "Cosmic Background Analyzers"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Cosmology",
+        "tech_name": "Universe Simulators"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Spectroscopy",
+        "tech_name": "Spectrometers"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Spectroscopy",
+        "tech_name": "Light Analyzers"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Spectroscopy",
+        "tech_name": "Emission Scanners"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Stellar",
+        "tech_name": "Star Analyzers"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Stellar",
+        "tech_name": "Stellar Observatories"
+      },
+      {
+        "theme_category": "Observatory",
+        "sub_category": "Stellar",
+        "tech_name": "Photon Collectors"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Navigation",
+        "tech_name": "Star Maps"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Navigation",
+        "tech_name": "Positioning Systems"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Navigation",
+        "tech_name": "Navigation Beacons"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Logistics",
+        "tech_name": "Cargo Drones"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Logistics",
+        "tech_name": "Autonomous Freighters"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Logistics",
+        "tech_name": "Supply Networks"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Communication",
+        "tech_name": "Quantum Communicators"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Communication",
+        "tech_name": "Relay Satellites"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Communication",
+        "tech_name": "Signal Boosters"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Infrastructure",
+        "tech_name": "Space Elevators"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Infrastructure",
+        "tech_name": "Orbital Stations"
+      },
+      {
+        "theme_category": "Transit",
+        "sub_category": "Infrastructure",
+        "tech_name": "Transport Hubs"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Supernova",
+        "tech_name": "Energy Shields"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Supernova",
+        "tech_name": "Shock Absorbers"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Supernova",
+        "tech_name": "Radiation Deflectors"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Turbulence",
+        "tech_name": "Stabilizers"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Turbulence",
+        "tech_name": "Gyroscopes"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Turbulence",
+        "tech_name": "Anti-Turbulence Thrusters"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Dynamics",
+        "tech_name": "Motion Sensors"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Dynamics",
+        "tech_name": "Kinetic Analyzers"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Dynamics",
+        "tech_name": "Dynamic Predictors"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Instability",
+        "tech_name": "Predictive Algorithms"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Instability",
+        "tech_name": "Chaos Models"
+      },
+      {
+        "theme_category": "Unstable",
+        "sub_category": "Instability",
+        "tech_name": "Stabilization Systems"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Defense",
+        "tech_name": "Force Fields"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Defense",
+        "tech_name": "Defense Drones"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Defense",
+        "tech_name": "Protective Barriers"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Tactics",
+        "tech_name": "AI Strategists"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Tactics",
+        "tech_name": "Tactical Simulators"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Tactics",
+        "tech_name": "Command Interfaces"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Diplomacy",
+        "tech_name": "Translation Devices"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Diplomacy",
+        "tech_name": "Negotiation AIs"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Diplomacy",
+        "tech_name": "Diplomatic Channels"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Intelligence",
+        "tech_name": "Spy Drones"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Intelligence",
+        "tech_name": "Recon Satellites"
+      },
+      {
+        "theme_category": "Warzone",
+        "sub_category": "Intelligence",
+        "tech_name": "Surveillance Networks"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Void",
+        "tech_name": "Deep Space Probes"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Void",
+        "tech_name": "Exploration Drones"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Void",
+        "tech_name": "Long-Distance Relays"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Dark",
+        "tech_name": "Low-Light Sensors"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Dark",
+        "tech_name": "Night Vision Systems"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Dark",
+        "tech_name": "Infrared Cameras"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Surveying",
+        "tech_name": "Long-Range Scanners"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Surveying",
+        "tech_name": "Survey Satellites"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Surveying",
+        "tech_name": "Mapping Drones"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Mapping",
+        "tech_name": "Holographic Maps"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Mapping",
+        "tech_name": "Cartography Tools"
+      },
+      {
+        "theme_category": "Wasteland",
+        "sub_category": "Mapping",
+        "tech_name": "Spatial Databases"
+      }
+    ]
+  }
