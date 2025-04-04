@@ -114,11 +114,7 @@ Game proceeds in rounds. Each round:
 
 ## 8. CORE ACTIONS
 
-### Core Action: EXPLORE
-
-When selecting the Explore action for your turn, you must **choose one** of the following two modes before proceeding:
-
-### Explore Mode: Space
+* **A. MOVE**
 
 * **Goal:** Expand your physical territory, gain access to new sectors and resources.
 * **Procedure:**
@@ -129,26 +125,27 @@ When selecting the Explore action for your turn, you must **choose one** of the 
     5. **Cleanup:** Shuffle any revealed Sector cards you chose *not* to place back into the Sector Deck.
     6. **(Game End Check):** If the Sector Deck was emptied during the Draw step, the relevant game end condition is checked after placement and payment are complete.
 
-### Explore Mode: Technology
+* **B. RESEARCH**
 
-* **Goal:** Research new technologies by leveraging knowledge associated with controlled territories.
-* **Procedure:**
-    1. **Check Access:** Identify the unique Sector Keywords (Biosphere, Extraction, Hazard, Observatory, Transit, Unstable, Warzone, Wasteland) present across all sectors you currently control. If you control no sectors with any of these keywords, you **cannot** choose this mode.
-    2. **Select Tech Path:** Choose **one** specific Tech Deck corresponding to one of the keywords (`K`) you have access to.
-    3. **Determine Max Eligible Tier (Hybrid Rule):** Based on your controlled sectors, find the highest Tech Tier (I, II, or III) you can research *for path `K`* this turn:
-        * **Eligible for Tier I if:** You control **1+** sectors with keyword `K`.
-        * **Eligible for Tier II if:** You control sectors with **3+ different keywords** overall.
-        * **Eligible for Tier III if:** You control **2+** sectors with keyword `K`.
-        *(Note: You must meet the Tier I condition to even select path `K`. Check II and III to find your *maximum* allowed tier for this action).*
-    4. **Choose Tier & Pay Cost:** Select the specific Tier (I, II, or III) you wish to research from within your chosen Tech Path `K` (cannot exceed your determined maximum eligibility). Pay the corresponding **Tech Tier Cost** in **Green** resources:
-        * Tier I: Pay **3 Green**
-        * Tier II: Pay **5 Green**
-        * Tier III: Pay **7 Green**
-    5. **Acquire Knowledge:** Draw **2** cards from the chosen Tech Deck *and* chosen Tier. Secretly examine both cards.
-    6. **Implement Tech:** Select **1** of the drawn cards to keep. Place it face-up in your play area; its effect is now active.
-    7. **Discard:** Discard the unchosen tech card face-down to the appropriate discard pile. *(If the chosen deck/tier is empty or has only 1 card, draw what is available. The action fails after payment if zero cards can be drawn).*
+Alright, here is the **Research** action explained simply, using the system we decided on:
 
-* **B. MOVE**
+This action lets you gain new Technology cards, which give you special advantages.
+
+1. **Choose Focus:** Look at the types of places (sectors) you control, identified by their keywords (like Biosphere, Extraction, Warzone, etc.). Choose **one** of those keywords to be your research focus for this turn.
+2. **Pay Cost:** Pay **4 Green** resources.
+3. **Figure Out How Many Cards to Draw:**
+    * You *always* get to draw at least **1 card**.
+    * **Check 1 (Specialization):** Do you control **two or more** places with the keyword you chose? If YES, you get to draw **+1 extra card**.
+    * **Check 2 (Diversity):** Do you control places with **three or more *different*** kinds of keywords *total* across all your territory? If YES, you get to draw **+1 extra card**.
+    * *(So, you'll draw 1, 2, or 3 cards total based on those two checks).*
+4. **Draw Cards:** Draw the number of cards you calculated from the Tech Deck matching the keyword you chose at the start.
+5. **Pick One:** Look at the cards you drew. Choose the **one** you like best.
+6. **Keep It:** Place the chosen Tech card face-up in your play area. Its special ability works for you now!
+7. **Discard:** Put the Tech cards you didn't choose into their discard pile.
+
+So, Research costs Green, lets you focus on a type of technology linked to your territory, and rewards you with more choices (more cards drawn) if you either specialize in that territory type or have diverse holdings across the map.
+
+* **C. MOVE**
     1. Choose up to 2 sectors you control. Move any number of fleets from there.
     2. Base Range: 1 sector (*Void Navigator base range: 2*).
     3. (Optional) Spend **Blue**: +1 range per Blue spent (applies to all moves this action).
@@ -156,13 +153,13 @@ When selecting the Explore action for your turn, you must **choose one** of the 
     5. Reassess control of destination sector(s) after movement (most fleets wins ties, see Glossary: Control).
     6. *(Hypergate interaction: See Section 12).*
 
-* **C. BUILD**
+* **D. BUILD**
     1. Choose up to **one** Build option below. Pay combined **Blue** + **Orange** costs as applicable.
     2. **Build Options:**
         * **Build Fleets:** Pay 1 **Orange** per fleet (potentially reduced by Outpost, see Section 12). Place up to 2 Fleets in your Homeworld sector, or in an Outpost sector as specified by Outpost rules.
         * **Build Structure:** Choose a Structure type you are eligible to build (see limits in Section 12). Pay its **Blue** and **Orange** cost (listed in Section 12). Place the Structure token in a controlled sector that doesn't already have your structure of the same type (exception: Outposts). See Section 12 for full details on Structures.
 
-* **D. ATTACK**
+* **E. ATTACK**
     1. Choose **one** Attack option:
         * **Attack Fleets:** Target adjacent sector with opponent fleets.
             * Choose 1 or 2 origin sectors you control.
@@ -192,7 +189,7 @@ Resolves when Attack Action moves fleets into sector with opponent(s). Uses Batt
     * If <=1 player has fleets: **Combat Ends.**
 12. **Post-Combat Control:** Winning player (last one with fleets) controls the sector. If mutual destruction, sector is uncontrolled (unless Defender had a structure, then they keep control - see Section 12).
 
-## 10. FLEETS & SHIP TYPES (RPS System)
+## 10. FLEETS & SHIP TYPES
 
 Used during Combat Configuration (Step 2) & Hit Allocation (Step 7).
 
