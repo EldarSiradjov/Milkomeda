@@ -114,7 +114,7 @@ Game proceeds in rounds. Each round:
 
 ## 8. CORE ACTIONS
 
-* **A. MOVE**
+* **A. EXPLORE**
 
 * **Goal:** Expand your physical territory, gain access to new sectors and resources.
 * **Procedure:**
