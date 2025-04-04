@@ -1,5 +1,5 @@
 {
-  "action_modules": [
+  "Protocols": [
     {
       "cost_amount": 1,
       "cost_resource": "Logistic",
@@ -118,7 +118,7 @@
     {
       "cost_amount": 3,
       "cost_resource": "Logistic",
-      "effect_action": "Explore" 
+      "effect_action": "Explore"
     }
   ]
 }
