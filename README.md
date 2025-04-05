@@ -1,2 +1,2 @@
-# MIlkomeda
-Board Game
+# Milkomeda
+
